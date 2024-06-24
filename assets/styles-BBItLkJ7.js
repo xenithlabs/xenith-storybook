@@ -1,0 +1,1 @@
+import{c as t}from"./index-Bb4qSo10.js";const a=t("font-sans",{variants:{variant:{subtitle:"font-normal text-base/6",semiBold:"text-sm/5 font-semibold",medium:"text-sm/5 font-medium",regular:"text-sm/5 font-normal",badge:"text-xs/[14px] font-medium",tooltip:"text-xs/4 font-medium",tiny:"text-xs/4 font-normal"}},defaultVariants:{variant:"regular"}});export{a as t};
