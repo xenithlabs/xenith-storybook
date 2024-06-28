@@ -24,6 +24,7 @@ export * from './components/Tag';
 export * from './components/Text';
 export * from './components/Toast';
 export * from './components/Tooltip';
+export * from './components/Form';
 export * from './utils/cn';
 export * from './hooks/useClickOutside';
 export * from './assets/icons';
