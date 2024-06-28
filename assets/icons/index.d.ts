@@ -27,4 +27,5 @@ export { default as InfoIcon } from './info.svg';
 export { default as ResetIcon } from './reset.svg';
 export { default as SortUp } from './sort-up.svg';
 export { default as SortDown } from './sort-down.svg';
+export { default as SpinnerIcon } from './spinner.svg';
 //# sourceMappingURL=index.d.ts.map

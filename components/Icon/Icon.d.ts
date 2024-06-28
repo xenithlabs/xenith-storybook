@@ -7,7 +7,8 @@ declare const iconStyles: (props?: ({
 interface IconProps extends VariantProps<typeof iconStyles> {
     icon: ReactNode;
     className?: string;
+    spin?: boolean;
 }
-export declare const Icon: ({ icon, size, className }: IconProps) => import("react/jsx-runtime").JSX.Element;
+export declare const Icon: ({ icon, size, className, spin }: IconProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Icon.d.ts.map

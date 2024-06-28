@@ -7,5 +7,6 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, Va
     iconOnly?: boolean;
     iconPosition?: "left" | "right";
     asChild?: boolean;
+    loading?: boolean;
 }
 //# sourceMappingURL=interfaces.d.ts.map
