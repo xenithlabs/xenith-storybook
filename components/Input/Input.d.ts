@@ -5,6 +5,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     leftComponent?: ReactNode;
     rightComponent?: ReactNode;
     containerClassName?: string;
+    error?: boolean;
 }
 declare const Input: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
 interface InputLeftAddonProps {

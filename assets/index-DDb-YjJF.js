@@ -1,1 +1,0 @@
-import{_ as t}from"./index-q8uFWT42.js";import{r}from"./index-l2PZgWEW.js";import{$ as o}from"./index-CeZp-NtI.js";const f=r.forwardRef((e,a)=>r.createElement(o.span,t({},e,{ref:a,style:{position:"absolute",border:0,width:1,height:1,padding:0,margin:-1,overflow:"hidden",clip:"rect(0, 0, 0, 0)",whiteSpace:"nowrap",wordWrap:"normal",...e.style}}))),s=f;export{s as $,f as a};
