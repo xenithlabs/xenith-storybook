@@ -2,6 +2,7 @@ import { Props as ReactSelectProps } from 'react-select';
 
 export interface SelectProps extends ReactSelectProps {
     useBlurContainer?: boolean;
+    isOptionSearchable?: boolean;
     as?: React.ElementType;
     fetchOptions?: () => Promise<unknown[]>;
 }

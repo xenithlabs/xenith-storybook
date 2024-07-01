@@ -28,4 +28,6 @@ export * from './components/Form';
 export * from './utils/cn';
 export * from './hooks/useClickOutside';
 export * from './assets/icons';
+export * from './components/Pagination';
+export * from './components/Skeleton';
 //# sourceMappingURL=main.d.ts.map

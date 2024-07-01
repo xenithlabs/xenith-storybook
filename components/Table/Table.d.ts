@@ -4,7 +4,9 @@ interface StickyProps {
     sticky?: boolean;
     stickyPosition?: "top" | "bottom" | "left" | "right";
 }
-declare const Table: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableElement> & React.RefAttributes<HTMLTableElement>>;
+declare const Table: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableElement> & {
+    pagination?: React.ReactNode;
+} & React.RefAttributes<HTMLTableElement>>;
 declare const TableHeader: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableBody: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableFooter: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
