@@ -20,11 +20,13 @@ declare const AlertDialogAction: React.ForwardRefExoticComponent<Omit<AlertDialo
     variant?: "solid" | "outline" | "nude" | "link" | null | undefined;
     theme?: "primary" | "destructive" | "neutral" | null | undefined;
     size?: "md" | "sm" | "xs" | null | undefined;
+    buttonType?: "iconButton" | "button" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & React.RefAttributes<HTMLButtonElement>>;
 declare const AlertDialogCancel: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogCancelProps & React.RefAttributes<HTMLButtonElement>, "ref"> & VariantProps<(props?: ({
     variant?: "solid" | "outline" | "nude" | "link" | null | undefined;
     theme?: "primary" | "destructive" | "neutral" | null | undefined;
     size?: "md" | "sm" | "xs" | null | undefined;
+    buttonType?: "iconButton" | "button" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & React.RefAttributes<HTMLButtonElement>>;
 export { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel, };
 //# sourceMappingURL=AlertDialog.d.ts.map
