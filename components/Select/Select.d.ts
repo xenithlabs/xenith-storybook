@@ -6,7 +6,6 @@ declare const SelectBaseStyles: ({ size, noBorder }?: BaseStylesProps) => {
     readonly control: () => string;
     readonly groupHeading: () => string;
     readonly indicatorSeparator: () => string;
-    readonly placeholder: () => string;
     readonly clearIndicator: () => string;
     readonly dropdownIndicator: () => string;
     readonly multiValue: () => string;
