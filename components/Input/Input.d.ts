@@ -5,6 +5,8 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     leftComponent?: ReactNode;
     rightComponent?: ReactNode;
     containerClassName?: string;
+    clearable?: boolean;
+    onClear?: () => void;
     error?: boolean;
 }
 declare const Input: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
@@ -15,6 +17,7 @@ interface InputLeftAddonProps {
 }
 declare const InputLeftAddon: ({ children, className, noBorder, }: InputLeftAddonProps) => import("react/jsx-runtime").JSX.Element;
 declare const InputRightAddon: ({ children, className }: InputLeftAddonProps) => import("react/jsx-runtime").JSX.Element;
-declare const InputSelectAddon: ({ className, as, ...props }: SelectProps) => import("react/jsx-runtime").JSX.Element;
-export { Input, InputLeftAddon, InputRightAddon, InputSelectAddon };
+declare const InputSelectAddon: ({ className, as, size, noBorder, ...props }: SelectProps) => import("react/jsx-runtime").JSX.Element;
+declare const SearchInput: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
+export { SearchInput, Input, InputLeftAddon, InputRightAddon, InputSelectAddon, };
 //# sourceMappingURL=Input.d.ts.map

@@ -1,9 +1,14 @@
 import { Props as ReactSelectProps } from 'react-select';
 
-export interface SelectProps extends ReactSelectProps {
+export interface BaseStylesProps {
+    size?: "md" | "sm";
+    noBorder?: boolean;
+}
+export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;
     as?: React.ElementType;
+    placeholder?: "skeleton" | string;
     fetchOptions?: () => Promise<unknown[]>;
 }
 export interface OptionType {

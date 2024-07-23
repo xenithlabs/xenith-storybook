@@ -1,10 +1,10 @@
 import { VariantProps } from 'class-variance-authority';
-import { ReactNode } from '../../../node_modules/react';
+import { HTMLAttributes, ReactNode } from '../../../node_modules/react';
 
 declare const iconStyles: (props?: ({
     size?: "md" | "sm" | "xs" | "lg" | "xl" | "2xl" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string;
-interface IconProps extends VariantProps<typeof iconStyles> {
+interface IconProps extends VariantProps<typeof iconStyles>, HTMLAttributes<HTMLDivElement> {
     icon: ReactNode;
     className?: string;
     spin?: boolean;

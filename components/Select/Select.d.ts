@@ -1,15 +1,12 @@
 import { default as React } from '../../../node_modules/react';
-import { SelectProps } from './interface';
+import { BaseStylesProps, SelectProps } from './interface';
 
-interface BaseStylesProps {
-    size?: "md" | "sm";
-    noBorder?: boolean;
-}
-declare const SelectBaseStyles: ({ size, noBorder }: BaseStylesProps) => {
+declare const SelectBaseStyles: ({ size, noBorder }?: BaseStylesProps) => {
     readonly container: () => string;
     readonly control: () => string;
     readonly groupHeading: () => string;
     readonly indicatorSeparator: () => string;
+    readonly placeholder: () => string;
     readonly clearIndicator: () => string;
     readonly dropdownIndicator: () => string;
     readonly multiValue: () => string;
@@ -17,7 +14,7 @@ declare const SelectBaseStyles: ({ size, noBorder }: BaseStylesProps) => {
     readonly menu: () => string;
     readonly option: () => string;
 };
-declare const Select: React.ForwardRefExoticComponent<SelectProps & BaseStylesProps & React.RefAttributes<never>>;
+declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
