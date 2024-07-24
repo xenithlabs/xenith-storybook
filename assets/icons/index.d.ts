@@ -30,4 +30,5 @@ export { default as SortDown } from './sort-down.svg';
 export { default as SpinnerIcon } from './spinner.svg';
 export { default as PlusIcon } from './plus.svg';
 export { default as CopyIcon } from './copy.svg';
+export { default as LinkIcon } from './link.svg';
 //# sourceMappingURL=index.d.ts.map
