@@ -1,5 +1,5 @@
 export declare const buttonStyles: (props?: ({
-    variant?: "solid" | "outline" | "nude" | "link" | null | undefined;
+    variant?: "solid" | "outline" | "nude" | "link" | "unstyled" | null | undefined;
     theme?: "primary" | "destructive" | "neutral" | null | undefined;
     size?: "md" | "sm" | "xs" | null | undefined;
     buttonType?: "iconButton" | "button" | null | undefined;

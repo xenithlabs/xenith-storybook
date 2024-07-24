@@ -1,1 +1,1 @@
-{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../lib/components/Button/index.tsx"],"names":[],"mappings":"AAAA,cAAc,UAAU,CAAC;AACzB,cAAc,UAAU,CAAC;AACzB,mBAAmB,cAAc,CAAC"}
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../lib/components/Button/index.tsx"],"names":[],"mappings":"AAAA,cAAc,UAAU,CAAC;AACzB,cAAc,UAAU,CAAC;AACzB,cAAc,cAAc,CAAC;AAC7B,mBAAmB,cAAc,CAAC"}

@@ -16,7 +16,10 @@ interface TableHeadActionProps {
     icon?: React.ReactNode;
 }
 declare const TableHeadAction: React.ForwardRefExoticComponent<ButtonProps & TableHeadActionProps & React.RefAttributes<HTMLButtonElement>>;
-declare const TableCell: React.ForwardRefExoticComponent<React.TdHTMLAttributes<HTMLTableCellElement> & StickyProps & React.RefAttributes<HTMLTableCellElement>>;
+interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, StickyProps {
+    action?: React.ReactNode;
+}
+declare const TableCell: React.ForwardRefExoticComponent<TableCellProps & React.RefAttributes<HTMLTableCellElement>>;
 declare const TableCaption: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableCaptionElement> & React.RefAttributes<HTMLTableCaptionElement>>;
 interface TableEmptyStateProps {
     title: string;
