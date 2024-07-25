@@ -1,1 +1,1 @@
-{"version":3,"file":"CopyButton.d.ts","sourceRoot":"","sources":["../../../lib/components/Button/CopyButton.tsx"],"names":[],"mappings":"AAGA,OAAO,EACL,WAAW,EAMZ,MAAM,QAAQ,CAAC;AAGhB,UAAU,eAAe;IACvB,IAAI,EAAE,MAAM,CAAC;CACd;AAED,eAAO,MAAM,UAAU,UAAW,WAAW,GAAG,eAAe,4CA+B9D,CAAC"}
+{"version":3,"file":"CopyButton.d.ts","sourceRoot":"","sources":["../../../lib/components/Button/CopyButton.tsx"],"names":[],"mappings":"AAGA,OAAO,EACL,WAAW,EAOZ,MAAM,QAAQ,CAAC;AAGhB,UAAU,eAAe;IACvB,IAAI,EAAE,MAAM,CAAC;CACd;AAED,eAAO,MAAM,UAAU,UAAW,WAAW,GAAG,eAAe,4CAkC9D,CAAC"}
