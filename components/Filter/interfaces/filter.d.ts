@@ -7,5 +7,7 @@ export interface FilterContextType {
     setFilter: Dispatch<SetStateAction<FilterType>>;
     onApply: () => void;
     onReset: (key?: string) => void;
+    setOpen: (opened: boolean) => void;
+    open: boolean;
 }
 //# sourceMappingURL=filter.d.ts.map
