@@ -6,6 +6,6 @@ interface FilterProps extends PropsWithChildren {
     open?: boolean;
     onOpenChange?: (opened: boolean) => void;
 }
-declare const FilterProvider: ({ children, onApply, open: openProps, onOpenChange: onOpenChangeProps, }: FilterProps) => import("react/jsx-runtime").JSX.Element;
+declare const FilterProvider: ({ children, onApply }: FilterProps) => import("react/jsx-runtime").JSX.Element;
 export { FilterProvider };
 //# sourceMappingURL=FilterPrimitive.d.ts.map
