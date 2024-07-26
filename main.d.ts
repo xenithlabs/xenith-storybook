@@ -30,4 +30,5 @@ export * from './hooks/useClickOutside';
 export * from './assets/icons';
 export * from './components/Pagination';
 export * from './components/Skeleton';
+export * from './components/AmountRangeInput';
 //# sourceMappingURL=main.d.ts.map
