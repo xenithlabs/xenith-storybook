@@ -5,6 +5,7 @@ declare const useFilter: () => {
     onReset: (key?: string | undefined) => void;
     setOpen: (opened: boolean) => void;
     open: boolean;
+    filterCount: number;
 };
 export { useFilter };
 //# sourceMappingURL=useFilter.d.ts.map
