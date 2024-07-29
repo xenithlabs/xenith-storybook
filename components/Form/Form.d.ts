@@ -16,7 +16,7 @@ declare const useFormField: () => {
     formMessageId: string;
 };
 declare const FormItem: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
-declare const FormLabel: React.ForwardRefExoticComponent<LabelProps & React.HTMLAttributes<HTMLLabelElement> & React.RefAttributes<HTMLLabelElement>>;
+declare const FormLabel: React.ForwardRefExoticComponent<LabelProps & Omit<Omit<import('@radix-ui/react-label').LabelProps & React.RefAttributes<HTMLLabelElement>, "ref"> & import('class-variance-authority').VariantProps<(props?: import('class-variance-authority/types').ClassProp | undefined) => string> & LabelProps & React.RefAttributes<HTMLLabelElement>, "ref"> & React.RefAttributes<HTMLLabelElement>>;
 declare const FormControl: React.ForwardRefExoticComponent<Omit<import('@radix-ui/react-slot').SlotProps & React.RefAttributes<HTMLElement>, "ref"> & {
     error?: boolean | undefined;
 } & React.RefAttributes<HTMLElement>>;
