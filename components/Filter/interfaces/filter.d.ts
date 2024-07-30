@@ -6,7 +6,7 @@ export interface FilterContextType {
     filter: FilterType;
     setFilter: Dispatch<SetStateAction<FilterType>>;
     onApply: () => void;
-    onReset: (key?: string) => void;
+    onReset: (key?: string | string[]) => void;
     setOpen: (opened: boolean) => void;
     open: boolean;
 }
