@@ -1,3 +1,4 @@
+import { RefObject } from '../../../node_modules/react';
 import { Props as ReactSelectProps } from 'react-select';
 
 export interface BaseStylesProps {
@@ -8,6 +9,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;
     as?: React.ElementType;
+    overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string;
     fetchOptions?: () => Promise<unknown[]>;
 }
