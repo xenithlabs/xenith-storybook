@@ -11,11 +11,10 @@ declare const TableHeader: React.ForwardRefExoticComponent<React.HTMLAttributes<
 declare const TableBody: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableFooter: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableRow: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableRowElement> & React.RefAttributes<HTMLTableRowElement>>;
-declare const TableHead: React.ForwardRefExoticComponent<React.ThHTMLAttributes<HTMLTableCellElement> & StickyProps & React.RefAttributes<HTMLTableCellElement>>;
-interface TableHeadActionProps {
-    icon?: React.ReactNode;
+interface TableHeadProps extends StickyProps {
+    buttonProps?: ButtonProps;
 }
-declare const TableHeadAction: React.ForwardRefExoticComponent<ButtonProps & TableHeadActionProps & React.RefAttributes<HTMLButtonElement>>;
+declare const TableHead: React.ForwardRefExoticComponent<React.ThHTMLAttributes<HTMLTableCellElement> & TableHeadProps & React.RefAttributes<HTMLTableCellElement>>;
 interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, StickyProps {
     action?: React.ReactNode;
 }
@@ -29,5 +28,5 @@ interface TableEmptyStateProps {
     onReset?: () => void;
 }
 declare const TableEmptyState: ({ title, subTitle, hasReset, resetText, onReset, }: TableEmptyStateProps) => import("react/jsx-runtime").JSX.Element;
-export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmptyState, TableHeadAction, };
+export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmptyState, };
 //# sourceMappingURL=Table.d.ts.map
