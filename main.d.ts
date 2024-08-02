@@ -31,4 +31,6 @@ export * from './assets/icons';
 export * from './components/Pagination';
 export * from './components/Skeleton';
 export * from './components/AmountRangeInput';
+export * from './components/Timeline';
+export * from './components/FileUploader';
 //# sourceMappingURL=main.d.ts.map
