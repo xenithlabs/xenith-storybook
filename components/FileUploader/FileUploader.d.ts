@@ -1,6 +1,5 @@
 import { default as React } from '../../../node_modules/react';
 import { VariantProps } from 'class-variance-authority';
-import { Attachment } from './interfaces';
 
 declare const fileUploaderStyles: (props?: ({
     theme?: "neutral" | "accent" | null | undefined;
@@ -10,10 +9,13 @@ interface FileUploaderProps extends React.HTMLAttributes<HTMLDivElement>, Varian
 }
 declare const FileUploader: React.ForwardRefExoticComponent<FileUploaderProps & React.RefAttributes<HTMLDivElement>>;
 declare const AttachmentList: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
-interface AttachmentItemProps extends React.HTMLAttributes<HTMLDivElement> {
-    attachment: Attachment;
-    actions?: React.ReactNode;
+declare const AttachmentItem: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
+declare const AttachmentImage: React.ForwardRefExoticComponent<React.ImgHTMLAttributes<HTMLImageElement> & React.RefAttributes<HTMLImageElement>>;
+declare const AttachmentInner: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
+interface AttachmentNameProps extends React.HTMLAttributes<HTMLDivElement> {
+    tooltip?: string | React.ReactNode;
 }
-declare const AttachmentItem: React.ForwardRefExoticComponent<AttachmentItemProps & React.RefAttributes<HTMLDivElement>>;
-export { FileUploader, AttachmentList, AttachmentItem };
+declare const AttachmentName: React.ForwardRefExoticComponent<AttachmentNameProps & React.RefAttributes<HTMLDivElement>>;
+declare const AttachmentActions: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
+export { FileUploader, AttachmentList, AttachmentItem, AttachmentImage, AttachmentInner, AttachmentName, AttachmentActions, };
 //# sourceMappingURL=FileUploader.d.ts.map
