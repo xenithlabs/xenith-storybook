@@ -31,4 +31,12 @@ export { default as SpinnerIcon } from './spinner.svg';
 export { default as PlusIcon } from './plus.svg';
 export { default as CopyIcon } from './copy.svg';
 export { default as LinkIcon } from './link.svg';
+export { default as BookIcon } from './book.svg';
+export { default as BarChartIcon } from './bar-chart.svg';
+export { default as WalletIcon } from './wallet.svg';
+export { default as BanknoteIcone } from './banknote.svg';
+export { default as WithdrawalIcon } from './withdrawal.svg';
+export { default as MerchantIcon } from './merchant.svg';
+export { default as GatewayIcon } from './gateway.svg';
+export { default as BlacklistIcon } from './blacklist.svg';
 //# sourceMappingURL=index.d.ts.map
