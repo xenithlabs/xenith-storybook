@@ -33,4 +33,9 @@ export * from './components/Skeleton';
 export * from './components/AmountRangeInput';
 export * from './components/Timeline';
 export * from './components/FileUploader';
+export * from './components/Avatar';
+export * from './components/Divider';
+export * from './components/Logo';
+export * from './components/Navbar';
+export * from './components/Sidebar';
 //# sourceMappingURL=main.d.ts.map
