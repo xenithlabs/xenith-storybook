@@ -38,4 +38,5 @@ export * from './components/Divider';
 export * from './components/Logo';
 export * from './components/Navbar';
 export * from './components/Sidebar';
+export * from './components/TextArea';
 //# sourceMappingURL=main.d.ts.map
