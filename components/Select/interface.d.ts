@@ -10,7 +10,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     isOptionSearchable?: boolean;
     as?: React.ElementType;
     overrideClickoutsideRef?: RefObject<HTMLElement>;
-    placeholder?: "skeleton" | string;
+    placeholder?: "skeleton" | string | React.ReactNode;
     fetchOptions?: () => Promise<unknown[]>;
 }
 export interface OptionType {
