@@ -39,4 +39,5 @@ export { default as WithdrawalIcon } from './withdrawal.svg';
 export { default as MerchantIcon } from './merchant.svg';
 export { default as GatewayIcon } from './gateway.svg';
 export { default as BlacklistIcon } from './blacklist.svg';
+export { default as ErrorIcon } from './error.svg';
 //# sourceMappingURL=index.d.ts.map
