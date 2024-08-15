@@ -39,4 +39,5 @@ export * from './components/Logo';
 export * from './components/Navbar';
 export * from './components/Sidebar';
 export * from './components/TextArea';
+export * from './components/ErrorPage';
 //# sourceMappingURL=main.d.ts.map
