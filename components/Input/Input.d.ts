@@ -10,13 +10,13 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     error?: boolean;
 }
 declare const Input: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
-interface InputLeftAddonProps {
+interface InputAddonProps {
     children: ReactNode;
     className?: string;
     noBorder?: boolean;
 }
-declare const InputLeftAddon: ({ children, className, noBorder, }: InputLeftAddonProps) => import("react/jsx-runtime").JSX.Element;
-declare const InputRightAddon: ({ children, className }: InputLeftAddonProps) => import("react/jsx-runtime").JSX.Element;
+declare const InputLeftAddon: ({ children, className, noBorder }: InputAddonProps) => import("react/jsx-runtime").JSX.Element;
+declare const InputRightAddon: ({ children, noBorder, className, }: InputAddonProps) => import("react/jsx-runtime").JSX.Element;
 declare const InputSelectAddon: ({ className, as, size, noBorder, ...props }: SelectProps) => import("react/jsx-runtime").JSX.Element;
 declare const SearchInput: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
 export { SearchInput, Input, InputLeftAddon, InputRightAddon, InputSelectAddon, };

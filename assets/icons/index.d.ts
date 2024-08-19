@@ -40,4 +40,6 @@ export { default as MerchantIcon } from './merchant.svg';
 export { default as GatewayIcon } from './gateway.svg';
 export { default as BlacklistIcon } from './blacklist.svg';
 export { default as ErrorIcon } from './error.svg';
+export { default as EyeOnIcon } from './eye-on.svg';
+export { default as EyeOffIcon } from './eye-off.svg';
 //# sourceMappingURL=index.d.ts.map
