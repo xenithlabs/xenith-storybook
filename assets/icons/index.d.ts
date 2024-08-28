@@ -42,4 +42,5 @@ export { default as BlacklistIcon } from './blacklist.svg';
 export { default as ErrorIcon } from './error.svg';
 export { default as EyeOnIcon } from './eye-on.svg';
 export { default as EyeOffIcon } from './eye-off.svg';
+export { default as LogoutIcon } from './logout.svg';
 //# sourceMappingURL=index.d.ts.map
