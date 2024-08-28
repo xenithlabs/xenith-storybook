@@ -7,6 +7,6 @@ interface SidebarItemProps extends ButtonHTMLAttributes<HTMLButtonElement>, Prop
     active?: boolean;
     expanded?: boolean;
 }
-declare const SidebarItem: ({ icon, text, disabled, active, children, badgeNumber, expanded, ...buttonProps }: SidebarItemProps) => import("react/jsx-runtime").JSX.Element;
+declare const SidebarItem: import('../../../node_modules/react').ForwardRefExoticComponent<SidebarItemProps & import('../../../node_modules/react').RefAttributes<HTMLButtonElement>>;
 export { SidebarItem };
 //# sourceMappingURL=SidebarItem.d.ts.map
