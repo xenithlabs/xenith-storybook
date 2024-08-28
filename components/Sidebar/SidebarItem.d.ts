@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes, PropsWithChildren, ReactNode } from '../../../nod
 
 interface SidebarItemProps extends ButtonHTMLAttributes<HTMLButtonElement>, PropsWithChildren {
     icon?: ReactNode;
-    text: string;
+    text: ReactNode;
     badgeNumber?: number;
     active?: boolean;
     expanded?: boolean;
