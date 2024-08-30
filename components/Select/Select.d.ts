@@ -1,7 +1,7 @@
 import { default as React } from '../../../node_modules/react';
 import { BaseStylesProps, SelectProps } from './interface';
 
-declare const SelectBaseStyles: ({ size, noBorder }?: BaseStylesProps) => {
+declare const SelectBaseStyles: ({ size, noBorder, error, }?: BaseStylesProps) => {
     readonly container: () => string;
     readonly control: () => string;
     readonly groupHeading: () => string;

@@ -4,8 +4,10 @@ import { Props as ReactSelectProps } from 'react-select';
 export interface BaseStylesProps {
     size?: "md" | "sm";
     noBorder?: boolean;
+    error?: boolean;
 }
 export interface SelectProps extends ReactSelectProps, BaseStylesProps {
+    error?: boolean;
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;
     as?: React.ElementType;
