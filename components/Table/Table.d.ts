@@ -17,6 +17,8 @@ interface TableHeadProps extends StickyProps {
 declare const TableHead: React.ForwardRefExoticComponent<React.ThHTMLAttributes<HTMLTableCellElement> & TableHeadProps & React.RefAttributes<HTMLTableCellElement>>;
 interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, StickyProps {
     action?: React.ReactNode;
+    align?: "left" | "center" | "right";
+    innerClassName?: string;
 }
 declare const TableCell: React.ForwardRefExoticComponent<TableCellProps & React.RefAttributes<HTMLTableCellElement>>;
 declare const TableCaption: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableCaptionElement> & React.RefAttributes<HTMLTableCaptionElement>>;
