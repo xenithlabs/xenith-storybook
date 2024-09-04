@@ -43,4 +43,5 @@ export { default as ErrorIcon } from './error.svg';
 export { default as EyeOnIcon } from './eye-on.svg';
 export { default as EyeOffIcon } from './eye-off.svg';
 export { default as LogoutIcon } from './logout.svg';
+export { default as PercentCircleIcon } from './percent-circle.svg';
 //# sourceMappingURL=index.d.ts.map
