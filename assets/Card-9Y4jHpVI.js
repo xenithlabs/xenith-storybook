@@ -1,0 +1,1 @@
+import{j as r}from"./jsx-runtime-DWbWqHZ-.js";import{c as t}from"./cn-C-5SdYIA.js";const d=({className:o,...s})=>r.jsx("div",{...s,className:t("shadow-modal bg-white p-6 pb-10 rounded-md ",o)});d.__docgenInfo={description:"",methods:[],displayName:"Card",composes:["HTMLAttributes"]};export{d as C};
