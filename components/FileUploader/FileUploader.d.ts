@@ -8,6 +8,9 @@ interface FileUploaderProps extends React.HTMLAttributes<HTMLDivElement>, Varian
     readonly?: boolean;
 }
 declare const FileUploader: React.ForwardRefExoticComponent<FileUploaderProps & React.RefAttributes<HTMLDivElement>>;
+interface FileUploaderInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+}
+export declare const FileUploaderInput: React.ForwardRefExoticComponent<FileUploaderInputProps & React.RefAttributes<HTMLInputElement>>;
 declare const AttachmentList: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const AttachmentItem: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const AttachmentImage: React.ForwardRefExoticComponent<React.ImgHTMLAttributes<HTMLImageElement> & React.RefAttributes<HTMLImageElement>>;

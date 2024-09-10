@@ -40,4 +40,5 @@ export * from './components/Navbar';
 export * from './components/Sidebar';
 export * from './components/TextArea';
 export * from './components/ErrorPage';
+export * from './components/OtpInput';
 //# sourceMappingURL=main.d.ts.map
