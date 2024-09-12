@@ -45,4 +45,5 @@ export { default as EyeOffIcon } from './eye-off.svg';
 export { default as LogoutIcon } from './logout.svg';
 export { default as PercentCircleIcon } from './percent-circle.svg';
 export { default as LightningIcon } from './lightning.svg';
+export { default as CheckCircleIcon } from './check-circle.svg';
 //# sourceMappingURL=index.d.ts.map
