@@ -18,6 +18,7 @@ export { default as EditIcon } from './edit.svg';
 export { default as ActiveIcon } from './active.svg';
 export { default as InactiveIcon } from './inactive.svg';
 export { default as CloseIcon } from './close.svg';
+export { default as CloseCircleIcon } from './close-circle.svg';
 export { default as TrashIcon } from './trash.svg';
 export { default as CheckIcon } from './check.svg';
 export { default as LightIcon } from './light.svg';
