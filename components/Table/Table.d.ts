@@ -6,6 +6,7 @@ interface StickyProps {
 }
 declare const Table: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableElement> & {
     pagination?: React.ReactNode;
+    empty?: React.ReactNode;
 } & React.RefAttributes<HTMLTableElement>>;
 declare const TableHeader: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableBody: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
@@ -27,8 +28,9 @@ interface TableEmptyStateProps {
     subTitle?: string;
     hasReset?: boolean;
     resetText?: string;
+    className?: string;
     onReset?: () => void;
 }
-declare const TableEmptyState: ({ title, subTitle, hasReset, resetText, onReset, }: TableEmptyStateProps) => import("react/jsx-runtime").JSX.Element;
+declare const TableEmptyState: ({ title, subTitle, hasReset, resetText, className, onReset, }: TableEmptyStateProps) => import("react/jsx-runtime").JSX.Element;
 export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmptyState, };
 //# sourceMappingURL=Table.d.ts.map
