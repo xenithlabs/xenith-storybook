@@ -1,4 +1,5 @@
 import { HTMLAttributes, PropsWithChildren } from '../../../node_modules/react';
+import { MenuPlacement } from 'react-select';
 
 interface PaginationContextType {
     page: number;
@@ -15,7 +16,10 @@ interface PaginationProps extends PropsWithChildren, Partial<PaginationContextTy
 export declare const Pagination: ({ children, total, page: pageProps, pageSize: pageSizeProps, onPageChange: onPageChangeProps, onPageSizeChange: onPageSizeChangeProps, className, ...divProps }: PaginationProps) => import("react/jsx-runtime").JSX.Element;
 export declare const PaginationPrev: () => import("react/jsx-runtime").JSX.Element;
 export declare const PaginationTotal: () => import("react/jsx-runtime").JSX.Element;
-export declare const PaginationSizeSetter: () => import("react/jsx-runtime").JSX.Element;
+interface PaginationSizeSetterProps {
+    menuPlacement?: MenuPlacement;
+}
+export declare const PaginationSizeSetter: ({ menuPlacement, }: PaginationSizeSetterProps) => import("react/jsx-runtime").JSX.Element;
 export declare const PaginationNext: () => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Pagination.d.ts.map
