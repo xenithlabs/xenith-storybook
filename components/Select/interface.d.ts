@@ -5,11 +5,13 @@ export interface BaseStylesProps {
     size?: "md" | "sm";
     noBorder?: boolean;
     error?: boolean;
+    readonly?: boolean;
 }
 export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     error?: boolean;
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;
+    readonly?: boolean;
     as?: React.ElementType;
     overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string | React.ReactNode;
