@@ -24,4 +24,11 @@ export type CountryOptionType = {
     name: string;
     dial_code: string;
 };
+export type CurrencyOptionType = {
+    code: string;
+    decimals: 2;
+    name: string;
+    number: string;
+    country: string;
+};
 //# sourceMappingURL=interface.d.ts.map

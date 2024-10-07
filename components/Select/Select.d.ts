@@ -16,7 +16,10 @@ declare const SelectBaseStyles: ({ size, noBorder, error, }?: BaseStylesProps) =
 };
 declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
-declare const CurrenciesSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
+interface CurrenciesSelectProps extends SelectProps {
+    withFlag?: boolean;
+}
+declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
 declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
 //# sourceMappingURL=Select.d.ts.map

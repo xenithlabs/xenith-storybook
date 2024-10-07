@@ -1,0 +1,19 @@
+export { default as BlurFlag } from './blur.svg';
+export { default as BlurCircleFlag } from './blur-circle.svg';
+export { default as CNFlag } from './cn.svg';
+export { default as CNCircleFlag } from './cn-circle.svg';
+export { default as GBFlag } from './gb.svg';
+export { default as GBCircleFlag } from './gb-circle.svg';
+export { default as IDFlag } from './id.svg';
+export { default as IDCircleFlag } from './id-circle.svg';
+export { default as MYFlag } from './my.svg';
+export { default as MYCircleFlag } from './my-circle.svg';
+export { default as PHFlag } from './ph.svg';
+export { default as PHCircleFlag } from './ph-circle.svg';
+export { default as SGFlag } from './sg.svg';
+export { default as SGCircleFlag } from './sg-circle.svg';
+export { default as THFlag } from './th.svg';
+export { default as THCircleFlag } from './th-circle.svg';
+export { default as VNFlag } from './vn.svg';
+export { default as VNCircleFlag } from './vn-circle.svg';
+//# sourceMappingURL=index.d.ts.map
