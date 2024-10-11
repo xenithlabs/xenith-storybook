@@ -18,6 +18,7 @@ declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAtt
 declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 interface CurrenciesSelectProps extends SelectProps {
     withFlag?: boolean;
+    currencyOptions?: string[];
 }
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
 declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
