@@ -8,6 +8,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     clearable?: boolean;
     onClear?: () => void;
     error?: boolean;
+    rawPlaceholder?: boolean;
 }
 declare const Input: import('../../../node_modules/react').ForwardRefExoticComponent<InputProps & import('../../../node_modules/react').RefAttributes<HTMLInputElement>>;
 interface InputAddonProps {
