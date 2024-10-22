@@ -6,6 +6,8 @@ export interface BaseStylesProps {
     noBorder?: boolean;
     error?: boolean;
     readonly?: boolean;
+    optionBorder?: boolean;
+    readOnlyWithCheck?: boolean;
 }
 export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     error?: boolean;
@@ -16,6 +18,8 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string | React.ReactNode;
     fetchOptions?: () => Promise<unknown[]>;
+    optionBorder?: boolean;
+    readOnlyWithCheck?: boolean;
 }
 export interface OptionType {
     label: string;

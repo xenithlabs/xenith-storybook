@@ -1,7 +1,7 @@
 import { default as React } from '../../../node_modules/react';
 import { BaseStylesProps, SelectProps } from './interface';
 
-declare const SelectBaseStyles: ({ size, noBorder, error, readonly, }?: BaseStylesProps) => {
+declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWithCheck, optionBorder, }?: BaseStylesProps) => {
     readonly container: () => string;
     readonly control: () => string;
     readonly groupHeading: () => string;
@@ -12,6 +12,7 @@ declare const SelectBaseStyles: ({ size, noBorder, error, readonly, }?: BaseStyl
     readonly multiValue: () => string;
     readonly multiValueRemove: () => string;
     readonly menu: () => string;
+    readonly menuList: () => string;
     readonly option: () => string;
 };
 declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
