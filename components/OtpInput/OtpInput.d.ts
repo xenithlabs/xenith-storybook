@@ -1,5 +1,6 @@
 interface Props {
     onComplete: (values: string) => void;
+    onClear: () => void;
     errorMessage?: string;
     className?: string;
     disabled?: boolean;
