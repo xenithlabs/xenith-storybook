@@ -11,6 +11,7 @@ interface TableSkeletonProps extends React.ComponentProps<typeof TableBody> {
     skeletonWidth?: string | string[] | readonly string[];
     skeletonHeight?: string | string[] | readonly string[];
     tableRowProps?: React.ComponentProps<typeof TableRow>;
+    rightAlignColumns?: number[];
 }
 declare const TableSkeleton: React.ForwardRefExoticComponent<Omit<TableSkeletonProps, "ref"> & React.RefAttributes<HTMLTableSectionElement>>;
 export { TableSkeletonCell, TableSkeleton };
