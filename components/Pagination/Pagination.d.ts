@@ -20,6 +20,8 @@ interface PaginationSizeSetterProps {
     menuPlacement?: MenuPlacement;
 }
 export declare const PaginationSizeSetter: ({ menuPlacement, }: PaginationSizeSetterProps) => import("react/jsx-runtime").JSX.Element;
-export declare const PaginationNext: () => import("react/jsx-runtime").JSX.Element;
+export declare const PaginationNext: ({ disabled }: {
+    disabled: boolean;
+}) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Pagination.d.ts.map
