@@ -17,12 +17,14 @@ declare const AlertDialogFooter: {
 declare const AlertDialogTitle: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogTitleProps & React.RefAttributes<HTMLHeadingElement>, "ref"> & React.RefAttributes<HTMLHeadingElement>>;
 declare const AlertDialogDescription: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogDescriptionProps & React.RefAttributes<HTMLParagraphElement>, "ref"> & React.RefAttributes<HTMLParagraphElement>>;
 declare const AlertDialogAction: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogActionProps & React.RefAttributes<HTMLButtonElement>, "ref"> & VariantProps<(props?: ({
+    buttonState?: "active" | "disabled" | null | undefined;
     variant?: "link" | "solid" | "outline" | "nude" | "unstyled" | null | undefined;
     theme?: "primary" | "destructive" | "neutral" | null | undefined;
     size?: "md" | "sm" | "xs" | null | undefined;
     buttonType?: "button" | "iconButton" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & React.RefAttributes<HTMLButtonElement>>;
 declare const AlertDialogCancel: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogCancelProps & React.RefAttributes<HTMLButtonElement>, "ref"> & VariantProps<(props?: ({
+    buttonState?: "active" | "disabled" | null | undefined;
     variant?: "link" | "solid" | "outline" | "nude" | "unstyled" | null | undefined;
     theme?: "primary" | "destructive" | "neutral" | null | undefined;
     size?: "md" | "sm" | "xs" | null | undefined;
