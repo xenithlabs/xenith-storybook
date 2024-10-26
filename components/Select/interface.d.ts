@@ -21,6 +21,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     fetchOptions?: () => Promise<unknown[]>;
     optionBorder?: boolean;
     readOnlyWithCheck?: boolean;
+    float?: boolean;
 }
 export interface OptionType {
     label: string;
