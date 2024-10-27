@@ -4,6 +4,7 @@ import { BaseStylesProps, SelectProps } from './interface';
 declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWithCheck, optionBorder, isDisabled, }?: BaseStylesProps) => {
     readonly container: () => string;
     readonly control: () => string;
+    readonly valueContainer: () => string;
     readonly groupHeading: () => string;
     readonly placeholder: () => string;
     readonly indicatorSeparator: () => string;
