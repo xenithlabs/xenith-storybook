@@ -14,6 +14,7 @@ declare const TableFooter: React.ForwardRefExoticComponent<React.HTMLAttributes<
 declare const TableRow: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableRowElement> & React.RefAttributes<HTMLTableRowElement>>;
 interface TableHeadProps extends StickyProps {
     buttonProps?: ButtonProps;
+    align?: "left" | "center" | "right";
 }
 declare const TableHead: React.ForwardRefExoticComponent<React.ThHTMLAttributes<HTMLTableCellElement> & TableHeadProps & React.RefAttributes<HTMLTableCellElement>>;
 interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, StickyProps {
