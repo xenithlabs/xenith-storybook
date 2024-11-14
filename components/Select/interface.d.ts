@@ -1,4 +1,4 @@
-import { RefObject } from '../../../node_modules/react';
+import { Dispatch, RefObject, SetStateAction } from '../../../node_modules/react';
 import { Props as ReactSelectProps } from 'react-select';
 
 export interface BaseStylesProps {
@@ -22,6 +22,8 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     optionBorder?: boolean;
     readOnlyWithCheck?: boolean;
     float?: boolean;
+    searchValue?: string;
+    setSearchValue?: Dispatch<SetStateAction<string>>;
 }
 export interface OptionType {
     label: string;
