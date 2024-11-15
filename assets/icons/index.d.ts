@@ -28,6 +28,7 @@ export { default as InfoIcon } from './info.svg';
 export { default as ResetIcon } from './reset.svg';
 export { default as SortUp } from './sort-up.svg';
 export { default as SortDown } from './sort-down.svg';
+export { default as SortIcon } from './sort.svg';
 export { default as SpinnerIcon } from './spinner.svg';
 export { default as PlusIcon } from './plus.svg';
 export { default as CopyIcon } from './copy.svg';
@@ -50,4 +51,7 @@ export { default as CheckCircleIcon } from './check-circle.svg';
 export { default as BackIcon } from './back.svg';
 export { default as DownloadIcon } from './download.svg';
 export { default as UserSettingsIcon } from './user-settings.svg';
+export { default as ReceiptIcon } from './receipt.svg';
+export { default as OverdraftIcon } from './overdraft.svg';
+export { default as WarningIcon } from './warning.svg';
 //# sourceMappingURL=index.d.ts.map
