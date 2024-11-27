@@ -10,7 +10,7 @@ export interface BaseStylesProps {
     isDisabled?: boolean;
     readOnlyWithCheck?: boolean;
 }
-export interface SelectProps extends ReactSelectProps, BaseStylesProps {
+export interface SelectProps<Option = unknown> extends ReactSelectProps<Option>, BaseStylesProps {
     error?: boolean;
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;

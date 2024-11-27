@@ -17,13 +17,13 @@ declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWith
     readonly menuList: () => string;
     readonly option: () => string;
 };
-declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
-declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
+declare const Select: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
+declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
 interface CurrenciesSelectProps extends SelectProps {
     withFlag?: boolean;
     currencyOptions?: string[];
 }
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
-declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
+declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
 export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
 //# sourceMappingURL=Select.d.ts.map
