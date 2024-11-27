@@ -1,4 +1,5 @@
 import { default as React } from '../../../node_modules/react';
+import { Props as SelectPrimitiveProps } from 'react-select';
 import { BaseStylesProps, SelectProps } from './interface';
 
 declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWithCheck, optionBorder, isDisabled, }?: BaseStylesProps) => {
@@ -17,7 +18,6 @@ declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWith
     readonly menuList: () => string;
     readonly option: () => string;
 };
-declare const Select: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
 declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
 interface CurrenciesSelectProps extends SelectProps {
     withFlag?: boolean;
@@ -25,5 +25,8 @@ interface CurrenciesSelectProps extends SelectProps {
 }
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
 declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps<unknown> & React.RefAttributes<never>>;
-export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
+declare const GenericSelect: <Option = unknown>(props: SelectProps<Option> & {
+    ref?: React.Ref<React.ElementRef<React.ComponentType<SelectPrimitiveProps>>>;
+}) => React.ReactNode;
+export { GenericSelect as Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
 //# sourceMappingURL=Select.d.ts.map
