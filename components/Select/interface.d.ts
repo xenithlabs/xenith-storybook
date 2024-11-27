@@ -18,7 +18,7 @@ export interface SelectProps<Option = unknown> extends ReactSelectProps<Option>,
     as?: React.ElementType;
     overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string | React.ReactNode;
-    fetchOptions?: () => Promise<unknown[]>;
+    fetchOptions?: () => Promise<Option[]>;
     optionBorder?: boolean;
     readOnlyWithCheck?: boolean;
     float?: boolean;
