@@ -10,7 +10,7 @@ export interface BaseStylesProps {
     isDisabled?: boolean;
     readOnlyWithCheck?: boolean;
 }
-export interface SelectProps<Option = unknown> extends ReactSelectProps<Option>, BaseStylesProps {
+export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     error?: boolean;
     useBlurContainer?: boolean;
     isOptionSearchable?: boolean;
@@ -18,7 +18,7 @@ export interface SelectProps<Option = unknown> extends ReactSelectProps<Option>,
     as?: React.ElementType;
     overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string | React.ReactNode;
-    fetchOptions?: () => Promise<Option[]>;
+    fetchOptions?: () => Promise<unknown[]>;
     optionBorder?: boolean;
     readOnlyWithCheck?: boolean;
     float?: boolean;
