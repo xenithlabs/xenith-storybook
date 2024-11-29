@@ -21,6 +21,7 @@ declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAtt
 declare const CountrySelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
 interface CurrenciesSelectProps extends SelectProps {
     withFlag?: boolean;
+    showCurrencyName?: boolean;
     currencyOptions?: string[];
 }
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
