@@ -1,5 +1,6 @@
 export * from './components/AlertDialog';
 export * from './components/Badge';
+export * from './components/Banner';
 export * from './components/Breadcumb';
 export * from './components/Button';
 export * from './components/Calendar';
