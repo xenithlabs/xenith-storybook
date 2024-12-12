@@ -72,4 +72,5 @@ export { default as RightDoubleArrowIcon } from './right-double-arrow.svg';
 export { default as TriggerIcon } from './trigger.svg';
 export { default as UpdateIcon } from './update.svg';
 export { default as UrlIcon } from './url.svg';
+export { default as HelpIcon } from './help.svg';
 //# sourceMappingURL=index.d.ts.map
