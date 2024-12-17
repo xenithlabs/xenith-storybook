@@ -26,5 +26,11 @@ interface CurrenciesSelectProps extends SelectProps {
 }
 declare const CurrenciesSelect: React.ForwardRefExoticComponent<CurrenciesSelectProps & React.RefAttributes<never>>;
 declare const PhoneSelect: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<never>>;
+interface LanguageSelectProps extends SelectProps {
+    locales: string[];
+    initialLocale: string;
+    onLocaleChange: (locale: string) => void;
+}
+export declare const LanguageSelect: ({ locales, initialLocale, onLocaleChange, ...selectProps }: LanguageSelectProps) => import("react/jsx-runtime").JSX.Element;
 export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
 //# sourceMappingURL=Select.d.ts.map

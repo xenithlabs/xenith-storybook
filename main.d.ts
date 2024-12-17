@@ -43,4 +43,6 @@ export * from './components/Sidebar';
 export * from './components/TextArea';
 export * from './components/ErrorPage';
 export * from './components/OtpInput';
+export * from './components/Countdown';
+export * from './components/BankImage';
 //# sourceMappingURL=main.d.ts.map

@@ -16,4 +16,6 @@ export { default as THFlag } from './th.svg';
 export { default as THCircleFlag } from './th-circle.svg';
 export { default as VNFlag } from './vn.svg';
 export { default as VNCircleFlag } from './vn-circle.svg';
+export { default as ENFlag } from './en.svg';
+export { default as ENCircleFlag } from './en-circle.svg';
 //# sourceMappingURL=index.d.ts.map
