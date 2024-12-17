@@ -45,4 +45,5 @@ export * from './components/ErrorPage';
 export * from './components/OtpInput';
 export * from './components/Countdown';
 export * from './components/BankImage';
+export * from './components/Accordion';
 //# sourceMappingURL=main.d.ts.map
