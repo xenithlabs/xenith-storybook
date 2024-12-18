@@ -1,1 +1,1 @@
-{"version":3,"file":"Sidebar.d.ts","sourceRoot":"","sources":["../../../lib/components/Sidebar/Sidebar.tsx"],"names":[],"mappings":"AAAA,OAAO,KAA8B,MAAM,OAAO,CAAC;AAInD,QAAA,MAAM,OAAO,6GAqBX,CAAC;AAIH,OAAO,EAAE,OAAO,EAAE,CAAC"}
+{"version":3,"file":"Sidebar.d.ts","sourceRoot":"","sources":["../../../lib/components/Sidebar/Sidebar.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,EAAE,SAAS,EAAE,KAAK,cAAc,EAAE,MAAM,OAAO,CAAC;AAG9D,UAAU,YAAa,SAAQ,cAAc,CAAC,cAAc,CAAC;IAC3D,IAAI,EAAE,SAAS,CAAC;CACjB;AACD,QAAA,MAAM,OAAO,qFAkBZ,CAAC;AAIF,OAAO,EAAE,OAAO,EAAE,CAAC"}

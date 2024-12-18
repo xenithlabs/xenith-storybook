@@ -1,5 +1,8 @@
-import { default as React } from '../../../node_modules/react';
+import { default as React, ReactNode, HTMLAttributes } from '../../../node_modules/react';
 
-declare const Sidebar: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
+interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
+    logo: ReactNode;
+}
+declare const Sidebar: React.ForwardRefExoticComponent<SidebarProps & React.RefAttributes<HTMLDivElement>>;
 export { Sidebar };
 //# sourceMappingURL=Sidebar.d.ts.map
