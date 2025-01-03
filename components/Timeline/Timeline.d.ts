@@ -28,6 +28,12 @@ interface TimelineErrorDescriptionProps extends React.HTMLAttributes<HTMLDivElem
     copyText?: string;
 }
 declare const TimelineErrorDescription: React.ForwardRefExoticComponent<TimelineErrorDescriptionProps & React.RefAttributes<HTMLDivElement>>;
+interface TimelineNotesDescriptionProps extends React.HTMLAttributes<HTMLDivElement> {
+    user: string;
+    shouldNameify?: boolean;
+    remarks?: string;
+}
+export declare const TimelineNotesDescription: React.ForwardRefExoticComponent<TimelineNotesDescriptionProps & React.RefAttributes<HTMLDivElement>>;
 declare const TimelineSkeleton: React.FC;
 export { Timeline, TimelineItem, TimelineHeader, TimelineTitle, TimelineDate, TimelineDescription, TimelineErrorDescription, TimelineErrorDescriptionJSON, TimelineSkeleton, };
 //# sourceMappingURL=Timeline.d.ts.map
