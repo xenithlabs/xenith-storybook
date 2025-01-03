@@ -33,7 +33,7 @@ interface TimelineNotesDescriptionProps extends React.HTMLAttributes<HTMLDivElem
     shouldNameify?: boolean;
     remarks?: string;
 }
-export declare const TimelineNotesDescription: React.ForwardRefExoticComponent<TimelineNotesDescriptionProps & React.RefAttributes<HTMLDivElement>>;
+declare const TimelineNotesDescription: React.ForwardRefExoticComponent<TimelineNotesDescriptionProps & React.RefAttributes<HTMLDivElement>>;
 declare const TimelineSkeleton: React.FC;
-export { Timeline, TimelineItem, TimelineHeader, TimelineTitle, TimelineDate, TimelineDescription, TimelineErrorDescription, TimelineErrorDescriptionJSON, TimelineSkeleton, };
+export { Timeline, TimelineItem, TimelineHeader, TimelineTitle, TimelineDate, TimelineDescription, TimelineErrorDescription, TimelineErrorDescriptionJSON, TimelineNotesDescription, TimelineSkeleton, };
 //# sourceMappingURL=Timeline.d.ts.map
