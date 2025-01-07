@@ -7,7 +7,7 @@ export { default as PayinIcon } from './payin.svg';
 export { default as PayoutIcon } from './payout.svg';
 export { default as UserIcon } from './user.svg';
 export { default as UsersIcon } from './users.svg';
-export { default as ChevronUpIcon } from './chevron_up.svg';
+export { default as ChevronUpIcon } from './chevron-up.svg';
 export { default as ChevronDownIcon } from './chevron-down.svg';
 export { default as ChevronLeftIcon } from './chevron-left.svg';
 export { default as ChevronRightIcon } from './chevron-right.svg';
