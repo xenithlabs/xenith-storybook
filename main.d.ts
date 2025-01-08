@@ -27,6 +27,7 @@ export * from './components/Toast';
 export * from './components/Tooltip';
 export * from './components/Form';
 export * from './utils/cn';
+export * from './constants/assetUrls';
 export * from './hooks/useClickOutside';
 export * from './assets/icons';
 export * from './assets/flags';
