@@ -31,6 +31,7 @@ export * from './constants/assetUrls';
 export * from './hooks/useClickOutside';
 export * from './assets/icons';
 export * from './assets/flags';
+export * as Flags from './assets/flags';
 export * from './components/Pagination';
 export * from './components/Skeleton';
 export * from './components/AmountRangeInput';
