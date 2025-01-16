@@ -41,7 +41,7 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly "BSI.VA": "bsi";
     readonly "BTN.VA": "btn";
     readonly "SINARMAS.VA": "sinarmas";
-    readonly "DANAMON.VA": "danamon";
+    readonly "BDMN.VA": "danamon";
     readonly QRIS: "qris";
     readonly EWALLET: "dana";
     readonly VIETQR: "vietqr";
