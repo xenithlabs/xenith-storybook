@@ -51,4 +51,5 @@ export * from './components/Accordion';
 export * from './components/Dot';
 export * from './components/DateRangePicker';
 export * from './components/DateTimePicker';
+export * from './components/Truncate';
 //# sourceMappingURL=main.d.ts.map
