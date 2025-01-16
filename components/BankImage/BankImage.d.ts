@@ -22,6 +22,10 @@ export declare const BANK_IMAGE: {
     readonly BIDV: "bidv";
     readonly DONGA: "donga";
     readonly TECHOM: "techom";
+    readonly BSI: "bsi";
+    readonly BTN: "btn";
+    readonly DANAMON: "danamon";
+    readonly SINARMAS: "sinarmas";
 };
 export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly "BCA.VA": "bca";
@@ -34,11 +38,15 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly "CIMBN.VA": "cimb";
     readonly "BRI.VA": "bri";
     readonly "BNI.VA": "bni";
+    readonly "BSI.VA": "bsi";
+    readonly "BTN.VA": "btn";
+    readonly "SINARMAS.VA": "sinarmas";
+    readonly "DANAMON.VA": "danamon";
     readonly QRIS: "qris";
     readonly EWALLET: "dana";
     readonly VIETQR: "vietqr";
 };
-export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom")[];
+export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom" | "bsi" | "btn" | "danamon" | "sinarmas")[];
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     bank: (typeof bankImages)[number];
 }
