@@ -4,7 +4,8 @@ interface TruncateProps {
     children: ReactNode;
     width: number;
     withTooltip?: boolean;
+    withCopy?: boolean;
 }
-export declare const Truncate: ({ children, width, withTooltip, }: TruncateProps) => import("react/jsx-runtime").JSX.Element;
+export declare const Truncate: ({ children, width, withTooltip, withCopy, }: TruncateProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Truncate.d.ts.map
