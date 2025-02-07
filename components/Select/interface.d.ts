@@ -24,6 +24,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     float?: boolean;
     searchValue?: string;
     setSearchValue?: Dispatch<SetStateAction<string>>;
+    withSelectAll?: boolean;
 }
 export interface OptionType {
     label: string;
