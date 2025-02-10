@@ -53,4 +53,6 @@ export * from './components/DateRangePicker';
 export * from './components/DateTimePicker';
 export * from './components/Truncate';
 export * from './components/Steps';
+export * from './components/CircularProgressBar';
+export * from './components/Progress';
 //# sourceMappingURL=main.d.ts.map
