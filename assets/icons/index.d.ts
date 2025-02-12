@@ -79,4 +79,5 @@ export { default as ExpireIcon } from './expired.svg';
 export { default as SecurePaymentIcon } from './secure_payment.svg';
 export { default as SendIcon } from './send.svg';
 export { default as GlobeIcon } from './globe.svg';
+export { default as RefundIcon } from './refund.svg';
 //# sourceMappingURL=index.d.ts.map
