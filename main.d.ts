@@ -55,4 +55,5 @@ export * from './components/Truncate';
 export * from './components/Steps';
 export * from './components/CircularProgressBar';
 export * from './components/Progress';
+export * from './components/Code';
 //# sourceMappingURL=main.d.ts.map
