@@ -1,1 +1,0 @@
-import{j as e}from"./jsx-runtime-BhBAkL08.js";import{c as i}from"./cn-C-5SdYIA.js";const r=({className:s})=>e.jsx("div",{className:i("bg-divider w-full h-[1px] shrink-0",s)});r.__docgenInfo={description:"",methods:[],displayName:"Divider",props:{className:{required:!1,tsType:{name:"string"},description:""}}};export{r as D};

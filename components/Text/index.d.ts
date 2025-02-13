@@ -1,3 +1,3 @@
-export * from './Text';
 export * from './styles';
+export * from './Text';
 //# sourceMappingURL=index.d.ts.map
