@@ -1,3 +1,3 @@
 export * from './Select';
-export type * from './interface';
+export * from './interface';
 //# sourceMappingURL=index.d.ts.map
