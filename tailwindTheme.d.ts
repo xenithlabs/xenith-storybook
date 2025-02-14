@@ -17,6 +17,15 @@ export declare const theme: {
             "radius-button": string;
             "radius-md": string;
         };
+        gridTemplateColumns: {
+            "form-3-col-sm": string;
+            "form-3-col": string;
+            "form-3-col-md": string;
+            "form-2-col": string;
+            "form-2-col-md": string;
+            details: string;
+            "details-sm": string;
+        };
         colors: {
             divider: string;
             accent: string;
