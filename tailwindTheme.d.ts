@@ -44,7 +44,6 @@ export declare const theme: {
             critical: string;
             "critical-weak": string;
             "critical-hover": string;
-            "text-neutral": string;
             "text-weak": string;
             "text-inverse": string;
             "text-weaker": string;
