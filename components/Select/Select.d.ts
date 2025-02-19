@@ -12,6 +12,7 @@ declare const SelectBaseStyles: ({ size, noBorder, error, readonly, readOnlyWith
     readonly dropdownIndicator: () => string;
     readonly singleValue: () => string;
     readonly multiValue: () => string;
+    readonly multiValueLabel: () => string;
     readonly multiValueRemove: () => string;
     readonly menu: () => string;
     readonly menuList: () => string;
