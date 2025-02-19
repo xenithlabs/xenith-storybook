@@ -6,6 +6,7 @@ export declare const theme: {
         };
         boxShadow: {
             sidebar: string;
+            navbar: string;
             container: string;
             input: string;
             dropdown: string;
