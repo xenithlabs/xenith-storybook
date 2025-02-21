@@ -8,7 +8,7 @@ interface ExtendedToastProps {
 }
 declare const Toast: React.ForwardRefExoticComponent<Omit<ToastPrimitives.ToastProps & React.RefAttributes<HTMLLIElement>, "ref"> & VariantProps<(props?: ({
     variant?: "outline" | "soft" | "surface" | null | undefined;
-    theme?: "destructive" | "neutral" | "success" | "warning" | "accent" | null | undefined;
+    theme?: "success" | "destructive" | "neutral" | "warning" | "accent" | null | undefined;
     size?: "md" | "sm" | "lg" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & ExtendedToastProps & React.RefAttributes<HTMLLIElement>>;
 declare const ToastAction: React.ForwardRefExoticComponent<Omit<ToastPrimitives.ToastActionProps & React.RefAttributes<HTMLButtonElement>, "ref"> & React.RefAttributes<HTMLButtonElement>>;

@@ -36,6 +36,7 @@ export declare const theme: {
             "bg-weaker": string;
             "bg-inverse": string;
             "bg-success": string;
+            "bg-success-hover": string;
             "bg-critical": string;
             "bg-critical-weak": string;
             "bg-success-weak": string;

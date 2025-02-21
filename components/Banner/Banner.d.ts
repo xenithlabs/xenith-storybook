@@ -3,7 +3,7 @@ import { VariantProps } from 'class-variance-authority';
 
 declare const bannerStyles: (props?: ({
     variant?: "simple" | null | undefined;
-    theme?: "destructive" | "neutral" | "success" | "warning" | "accent" | null | undefined;
+    theme?: "success" | "destructive" | "neutral" | "warning" | "accent" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string;
 interface BannerProps extends HTMLAttributes<HTMLDivElement>, VariantProps<typeof bannerStyles> {
     icon?: React.ReactNode;
