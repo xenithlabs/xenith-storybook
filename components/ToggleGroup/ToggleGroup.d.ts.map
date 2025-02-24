@@ -1,0 +1,1 @@
+{"version":3,"file":"ToggleGroup.d.ts","sourceRoot":"","sources":["../../../lib/components/ToggleGroup/ToggleGroup.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAC/B,OAAO,KAAK,oBAAoB,MAAM,8BAA8B,CAAC;AACrE,OAAO,EAAE,KAAK,YAAY,EAAE,MAAM,0BAA0B,CAAC;AAY7D,QAAA,MAAM,WAAW;;;uHAoBf,CAAC;AAIH,QAAA,MAAM,eAAe;;;yHAsBnB,CAAC;AAIH,OAAO,EAAE,WAAW,EAAE,eAAe,EAAE,CAAC"}

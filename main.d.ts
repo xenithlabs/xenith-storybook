@@ -56,5 +56,8 @@ export * from './components/Steps';
 export * from './components/CircularProgressBar';
 export * from './components/Progress';
 export * from './components/Code';
+export * from './components/Toggle';
+export * from './components/ToggleGroup';
+export * from './components/DarkModeToggle';
 export * from './tailwindTheme';
 //# sourceMappingURL=main.d.ts.map

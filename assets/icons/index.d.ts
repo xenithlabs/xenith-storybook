@@ -21,7 +21,6 @@ export { default as CloseIcon } from './close.svg';
 export { default as CloseCircleIcon } from './close-circle.svg';
 export { default as TrashIcon } from './trash.svg';
 export { default as CheckIcon } from './check.svg';
-export { default as LightIcon } from './light.svg';
 export { default as NotificationIcon } from './notification.svg';
 export { default as CalendarIcon } from './calendar.svg';
 export { default as InfoIcon } from './info.svg';
@@ -80,4 +79,7 @@ export { default as SecurePaymentIcon } from './secure_payment.svg';
 export { default as SendIcon } from './send.svg';
 export { default as GlobeIcon } from './globe.svg';
 export { default as RefundIcon } from './refund.svg';
+export { default as LightIcon } from './light.svg';
+export { default as DarkIcon } from './dark.svg';
+export { default as SystemIcon } from './system-color.svg';
 //# sourceMappingURL=index.d.ts.map
