@@ -87,4 +87,5 @@ export { default as LeafIcon } from './leaf.svg';
 export { default as LockIcon } from './lock.svg';
 export { default as DesktopIcon } from './desktop.svg';
 export { default as PhoneIcon } from './phone.svg';
+export { default as SecurityIcon } from './security.svg';
 //# sourceMappingURL=index.d.ts.map
