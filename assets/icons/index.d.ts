@@ -84,4 +84,5 @@ export { default as DarkIcon } from './dark.svg';
 export { default as SystemIcon } from './system-color.svg';
 export { default as PaletteIcon } from './palette.svg';
 export { default as LeafIcon } from './leaf.svg';
+export { default as LockIcon } from './lock.svg';
 //# sourceMappingURL=index.d.ts.map
