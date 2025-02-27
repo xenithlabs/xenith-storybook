@@ -85,4 +85,6 @@ export { default as SystemIcon } from './system-color.svg';
 export { default as PaletteIcon } from './palette.svg';
 export { default as LeafIcon } from './leaf.svg';
 export { default as LockIcon } from './lock.svg';
+export { default as DesktopIcon } from './desktop.svg';
+export { default as PhoneIcon } from './phone.svg';
 //# sourceMappingURL=index.d.ts.map
