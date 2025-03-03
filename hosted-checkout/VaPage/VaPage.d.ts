@@ -10,8 +10,10 @@ interface VAPaymentDetailProps {
     vaNumber: string;
     depositAmountLabel: string;
     depositAmount: string;
+    referenceLabel: string;
+    reference: string;
 }
-export declare const VAPaymentDetail: ({ vaNumber, vaNumberLabel, depositAmount, depositAmountLabel, }: VAPaymentDetailProps) => import("react/jsx-runtime").JSX.Element;
+export declare const VAPaymentDetail: ({ vaNumber, vaNumberLabel, depositAmount, depositAmountLabel, reference, referenceLabel, }: VAPaymentDetailProps) => import("react/jsx-runtime").JSX.Element;
 interface VAPaymentInstructionsProps extends PropsWithChildren {
     label: string;
 }
