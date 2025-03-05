@@ -47,6 +47,7 @@ export { default as LogoutIcon } from './logout.svg';
 export { default as PercentCircleIcon } from './percent-circle.svg';
 export { default as LightningIcon } from './lightning.svg';
 export { default as CheckCircleIcon } from './check-circle.svg';
+export { default as CheckSquareIcon } from './check-square.svg';
 export { default as BackIcon } from './back.svg';
 export { default as DownloadIcon } from './download.svg';
 export { default as UserSettingsIcon } from './user-settings.svg';
