@@ -18,6 +18,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     as?: React.ElementType;
     overrideClickoutsideRef?: RefObject<HTMLElement>;
     placeholder?: "skeleton" | string | React.ReactNode;
+    rawPlaceholder?: boolean;
     fetchOptions?: () => Promise<unknown[]>;
     optionBorder?: boolean;
     readOnlyWithCheck?: boolean;
