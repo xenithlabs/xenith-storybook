@@ -21,6 +21,9 @@ interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, S
     action?: React.ReactNode;
     align?: "left" | "center" | "right";
     innerClassName?: string;
+    href?: string;
+    hrefAs?: React.ElementType;
+    linkProps?: Record<string, unknown>;
 }
 declare const TableCell: React.ForwardRefExoticComponent<TableCellProps & React.RefAttributes<HTMLTableCellElement>>;
 declare const TableCaption: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableCaptionElement> & React.RefAttributes<HTMLTableCaptionElement>>;
