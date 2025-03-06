@@ -7,7 +7,10 @@ interface TruncateProps {
     withTooltip?: boolean;
     withCopy?: boolean;
     fluid?: boolean;
+    middleTruncate?: boolean;
+    middleTruncateStartLength?: number;
+    middleTruncateEndLength?: number;
 }
-export declare const Truncate: ({ children, width, withTooltip, withCopy, fluid, maxWidth, }: TruncateProps) => import("react/jsx-runtime").JSX.Element;
+export declare const Truncate: ({ children, width, withTooltip, withCopy, fluid, maxWidth, middleTruncate, middleTruncateStartLength, middleTruncateEndLength, }: TruncateProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Truncate.d.ts.map
