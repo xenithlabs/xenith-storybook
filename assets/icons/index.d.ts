@@ -90,4 +90,5 @@ export { default as DesktopIcon } from './desktop.svg';
 export { default as PhoneIcon } from './phone.svg';
 export { default as SecurityIcon } from './security.svg';
 export { default as BadgeCentIcon } from './badge-cent.svg';
+export { default as MaintenanceIcon } from './maintenance.svg';
 //# sourceMappingURL=index.d.ts.map
