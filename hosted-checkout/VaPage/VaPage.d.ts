@@ -29,7 +29,8 @@ export declare const VAPaymentInstructionItem: ({ method, isLast, instruction, m
 interface VAAlreadyPaidSectionProps {
     infoText: string;
     buttonText: string;
+    onClick?: () => void;
 }
-export declare const VAAlreadyPaidSection: ({ infoText, buttonText, }: VAAlreadyPaidSectionProps) => import("react/jsx-runtime").JSX.Element;
+export declare const VAAlreadyPaidSection: ({ infoText, buttonText, onClick, }: VAAlreadyPaidSectionProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=VaPage.d.ts.map
