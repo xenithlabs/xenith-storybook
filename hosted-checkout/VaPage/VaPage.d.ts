@@ -1,4 +1,5 @@
 import { PropsWithChildren } from '../../../node_modules/react';
+import { default as Markdown } from 'react-markdown';
 
 interface ReferenceNumberProps {
     label: string;
@@ -22,8 +23,9 @@ interface VAPaymentInstructionItemProps {
     method: string;
     isLast: boolean;
     instruction: string;
+    markdownComp: typeof Markdown;
 }
-export declare const VAPaymentInstructionItem: ({ method, isLast, instruction, }: VAPaymentInstructionItemProps) => import("react/jsx-runtime").JSX.Element;
+export declare const VAPaymentInstructionItem: ({ method, isLast, instruction, markdownComp: Markdown, }: VAPaymentInstructionItemProps) => import("react/jsx-runtime").JSX.Element;
 interface VAAlreadyPaidSectionProps {
     infoText: string;
     buttonText: string;
