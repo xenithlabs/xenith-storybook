@@ -1,7 +1,7 @@
 import { PropsWithChildren } from '../../../node_modules/react';
 import { default as Markdown } from 'react-markdown';
 
-export declare const QRCodeWarningBanner: () => import("react/jsx-runtime").JSX.Element;
+export declare const QRCodeWarningBanner: ({ children }: PropsWithChildren) => import("react/jsx-runtime").JSX.Element;
 interface QRCodePaymentDetailProps {
     depositAmountLabel: string;
     depositAmount: string;
@@ -10,11 +10,13 @@ interface QRCodePaymentDetailProps {
 }
 export declare const QRCodePaymentDetail: ({ depositAmount, depositAmountLabel, reference, referenceLabel, }: QRCodePaymentDetailProps) => import("react/jsx-runtime").JSX.Element;
 interface QRCodeSectionProps extends PropsWithChildren {
-    label: string;
-    downloadButtonLabel: string;
-    onDownloadClick?: () => void;
+    title: string;
 }
-export declare const QRCodeSection: ({ label, downloadButtonLabel, onDownloadClick, children, }: QRCodeSectionProps) => import("react/jsx-runtime").JSX.Element;
+export declare const QRCodeSection: ({ title, children }: QRCodeSectionProps) => import("react/jsx-runtime").JSX.Element;
+interface DownloadQRCodeButtonProps extends PropsWithChildren {
+    onClick?: () => void;
+}
+export declare const DownloadQRCodeButton: ({ children, onClick, }: DownloadQRCodeButtonProps) => import("react/jsx-runtime").JSX.Element;
 interface QRCodePaymentInstructionsProps {
     label: string;
     instruction: string;
