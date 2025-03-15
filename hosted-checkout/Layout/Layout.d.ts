@@ -16,7 +16,9 @@ type MainLayoutProps = {
     styleSelector?: string;
 } & (MainLayoutPreviewProps | MainLayoutHCProps);
 export declare const HCMainLayout: ({ isPreview, isMobile, backgroundColor, accentColor, styleSelector, children, }: PropsWithChildren<MainLayoutProps>) => import("react/jsx-runtime").JSX.Element;
-export declare const HCLanguageSelectorLayout: ({ children }: PropsWithChildren) => import("react/jsx-runtime").JSX.Element;
+export declare const HCBrandingAndLanguageLayout: ({ className, children, }: PropsWithChildren<{
+    className?: string;
+}>) => import("react/jsx-runtime").JSX.Element;
 export declare const HCBorderBox: ({ children, className, }: PropsWithChildren<{
     className?: string;
 }>) => import("react/jsx-runtime").JSX.Element;
