@@ -2,10 +2,11 @@ import { default as React } from '../../../node_modules/react';
 import { VariantProps } from 'class-variance-authority';
 
 declare const fileUploaderStyles: (props?: ({
-    theme?: "neutral" | "accent" | null | undefined;
+    theme?: "neutral" | "accent" | "critical" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string;
 interface FileUploaderProps extends React.HTMLAttributes<HTMLDivElement>, VariantProps<typeof fileUploaderStyles> {
     readonly?: boolean;
+    error?: boolean;
 }
 declare const FileUploader: React.ForwardRefExoticComponent<FileUploaderProps & React.RefAttributes<HTMLDivElement>>;
 interface FileUploaderInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
