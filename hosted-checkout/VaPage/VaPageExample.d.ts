@@ -1,8 +1,7 @@
 /// <reference types="react" />
 interface VaPageProps {
-    reference: string;
-    vaNumber: string;
-    amount: string;
+    backgroundColor?: string;
+    accentColor?: string;
 }
 export declare const AVAILABLE_TRANSFER_METHOD: {
     readonly ATM: "ATM";

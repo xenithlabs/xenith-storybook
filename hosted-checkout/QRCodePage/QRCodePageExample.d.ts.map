@@ -1,1 +1,1 @@
-{"version":3,"file":"QRCodePageExample.d.ts","sourceRoot":"","sources":["../../../lib/hosted-checkout/QRCodePage/QRCodePageExample.tsx"],"names":[],"mappings":";AA4BA,eAAO,MAAM,UAAU,EAAE,KAAK,CAAC,EA8D9B,CAAC"}
+{"version":3,"file":"QRCodePageExample.d.ts","sourceRoot":"","sources":["../../../lib/hosted-checkout/QRCodePage/QRCodePageExample.tsx"],"names":[],"mappings":";AA4BA,UAAU,eAAe;IACvB,eAAe,CAAC,EAAE,MAAM,CAAC;IACzB,WAAW,CAAC,EAAE,MAAM,CAAC;CACtB;AAED,eAAO,MAAM,UAAU,EAAE,KAAK,CAAC,EAAE,CAAC,eAAe,CAiEhD,CAAC"}

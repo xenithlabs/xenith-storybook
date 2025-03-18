@@ -2,6 +2,7 @@ import { PropsWithChildren } from '../../../node_modules/react';
 
 export declare const getBgLeafColor: (backgroundColor: string) => string;
 export declare const getAccentHoverColor: (accentColor: string) => string;
+export declare const getAccentWeakColor: (accentColor: string) => string;
 type MainLayoutPreviewProps = {
     isPreview: true;
     isMobile?: boolean;
@@ -11,11 +12,12 @@ type MainLayoutHCProps = {
     isMobile?: never;
 };
 type MainLayoutProps = {
+    id?: string;
     backgroundColor: string;
     accentColor: string;
     styleSelector?: string;
 } & (MainLayoutPreviewProps | MainLayoutHCProps);
-export declare const HCMainLayout: ({ isPreview, isMobile, backgroundColor, accentColor, styleSelector, children, }: PropsWithChildren<MainLayoutProps>) => import("react/jsx-runtime").JSX.Element;
+export declare const HCMainLayout: ({ id, isPreview, isMobile, backgroundColor, accentColor, styleSelector, children, }: PropsWithChildren<MainLayoutProps>) => import("react/jsx-runtime").JSX.Element;
 export declare const HCBrandingAndLanguageLayout: ({ className, children, }: PropsWithChildren<{
     className?: string;
 }>) => import("react/jsx-runtime").JSX.Element;
