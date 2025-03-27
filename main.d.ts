@@ -60,5 +60,6 @@ export * from './components/Toggle';
 export * from './components/ToggleGroup';
 export * from './components/DarkModeToggle';
 export * from './components/ColorPicker';
+export * from './components/Map';
 export * from './tailwindTheme';
 //# sourceMappingURL=main.d.ts.map
