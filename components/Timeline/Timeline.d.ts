@@ -1,4 +1,4 @@
-import { default as React } from '../../../node_modules/react';
+import { default as React, PropsWithChildren } from '../../../node_modules/react';
 
 declare const Timeline: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 interface TimelineItemProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -34,6 +34,14 @@ interface TimelineNotesDescriptionProps extends React.HTMLAttributes<HTMLDivElem
     remarks?: string;
 }
 declare const TimelineNotesDescription: React.ForwardRefExoticComponent<TimelineNotesDescriptionProps & React.RefAttributes<HTMLDivElement>>;
+export declare const TimelineAttachmentsDescription: React.FC<PropsWithChildren>;
+interface TimelineAttachmentProps extends React.HTMLAttributes<HTMLDivElement> {
+    name: string;
+    src: string | undefined;
+    onClick?: () => void;
+    className?: string;
+}
+export declare const TimelineAttachment: React.FC<TimelineAttachmentProps>;
 declare const TimelineSkeleton: React.FC;
 export { Timeline, TimelineItem, TimelineHeader, TimelineTitle, TimelineDate, TimelineDescription, TimelineErrorDescription, TimelineErrorDescriptionJSON, TimelineNotesDescription, TimelineSkeleton, };
 //# sourceMappingURL=Timeline.d.ts.map
