@@ -91,4 +91,6 @@ export { default as PhoneIcon } from './phone.svg';
 export { default as SecurityIcon } from './security.svg';
 export { default as BadgeCentIcon } from './badge-cent.svg';
 export { default as MaintenanceIcon } from './maintenance.svg';
+export { default as DesktopPinIcon } from './desktop-pin.svg';
+export { default as MobilePinIcon } from './mobile-pin.svg';
 //# sourceMappingURL=index.d.ts.map
