@@ -1,5 +1,5 @@
 import { HTMLAttributes, PropsWithChildren } from '../../../node_modules/react';
-import { OptionType } from '@/main';
+import { OptionType, SelectProps } from '@/main';
 import { MenuPlacement } from 'react-select';
 
 interface PaginationContextType {
@@ -20,8 +20,9 @@ export declare const PaginationTotal: () => import("react/jsx-runtime").JSX.Elem
 interface PaginationSizeSetterProps {
     menuPlacement?: MenuPlacement;
     sizeOptions?: OptionType[];
+    selectProps?: SelectProps;
 }
-export declare const PaginationSizeSetter: ({ menuPlacement, sizeOptions, }: PaginationSizeSetterProps) => import("react/jsx-runtime").JSX.Element;
+export declare const PaginationSizeSetter: ({ menuPlacement, sizeOptions, selectProps, }: PaginationSizeSetterProps) => import("react/jsx-runtime").JSX.Element;
 interface PaginationNextProps {
     disabled?: boolean;
 }

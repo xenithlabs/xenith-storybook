@@ -1,4 +1,4 @@
-import { Dispatch, RefObject, SetStateAction } from '../../../node_modules/react';
+import { Dispatch, ReactNode, RefObject, SetStateAction } from '../../../node_modules/react';
 import { Props as ReactSelectProps } from 'react-select';
 
 export interface BaseStylesProps {
@@ -26,6 +26,7 @@ export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     searchValue?: string;
     setSearchValue?: Dispatch<SetStateAction<string>>;
     withSelectAll?: boolean;
+    checkIcon?: "default" | null | ReactNode;
 }
 export interface OptionType {
     label: string;
