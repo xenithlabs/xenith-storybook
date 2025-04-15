@@ -1,6 +1,6 @@
 declare const useFilter: () => {
     filter: import('./interfaces/filter').FilterType;
-    setFilterByKey: (key: string, value: null | string | string[]) => void;
+    setFilterByKey: (key: string, value: string | string[] | null) => void;
     onApply: () => void;
     onReset: (key?: string | string[] | undefined) => void;
     setOpen: (opened: boolean) => void;

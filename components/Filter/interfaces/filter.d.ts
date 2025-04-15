@@ -9,5 +9,7 @@ export interface FilterContextType {
     onReset: (key?: string | string[]) => void;
     setOpen: (opened: boolean) => void;
     open: boolean;
+    searchParams?: unknown;
+    setFilterByKey: (key: string, value: null | string | string[]) => void;
 }
 //# sourceMappingURL=filter.d.ts.map
