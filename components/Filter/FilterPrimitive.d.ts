@@ -6,7 +6,7 @@ interface FilterProps<T = unknown> extends PropsWithChildren {
     open?: boolean;
     onOpenChange?: (opened: boolean) => void;
     searchParams?: T;
-    onSearchParamsChanged?: (filter: FilterType, updatedParams: T, setFilterKey: FilterContextType["setFilterByKey"]) => {};
+    onSearchParamsChanged?: (filter: FilterType, updatedParams: T, setFilterKey: FilterContextType["setFilterByKey"]) => void;
 }
 declare const FilterProvider: ({ children, onApply, searchParams, onSearchParamsChanged, }: FilterProps) => import("react/jsx-runtime").JSX.Element;
 export { FilterProvider };
