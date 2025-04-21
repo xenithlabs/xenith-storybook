@@ -93,4 +93,8 @@ export { default as BadgeCentIcon } from './badge-cent.svg';
 export { default as MaintenanceIcon } from './maintenance.svg';
 export { default as DesktopPinIcon } from './desktop-pin.svg';
 export { default as MobilePinIcon } from './mobile-pin.svg';
+export { default as CheckFilledCircleIcon } from './check-filled-circle.svg';
+export { default as WarningFilledIcon } from './warning-filled.svg';
+export { default as CloseFilledCircleIcon } from './close-filled-circle.svg';
+export { default as GearIcon } from './gear.svg';
 //# sourceMappingURL=index.d.ts.map
