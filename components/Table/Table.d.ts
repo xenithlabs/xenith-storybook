@@ -25,6 +25,11 @@ interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, S
     hrefAs?: React.ElementType;
     linkProps?: Record<string, unknown>;
 }
+interface TruncateMiddleProps {
+    text: string;
+    suffixLength: number;
+}
+declare const TruncateMiddle: ({ text, suffixLength }: TruncateMiddleProps) => import("react/jsx-runtime").JSX.Element;
 declare const TableCell: React.ForwardRefExoticComponent<TableCellProps & React.RefAttributes<HTMLTableCellElement>>;
 declare const TableCaption: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableCaptionElement> & React.RefAttributes<HTMLTableCaptionElement>>;
 interface TableEmptyStateProps {
@@ -36,5 +41,5 @@ interface TableEmptyStateProps {
     onReset?: () => void;
 }
 declare const TableEmptyState: ({ title, subTitle, hasReset, resetText, className, onReset, }: TableEmptyStateProps) => import("react/jsx-runtime").JSX.Element;
-export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmptyState, };
+export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmptyState, TruncateMiddle, };
 //# sourceMappingURL=Table.d.ts.map
