@@ -1,7 +1,7 @@
 import * as React from "react";
 export interface TextAreaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
     containerClassName?: string;
-    rawPlaceholder?: string;
+    rawPlaceholder?: boolean;
     error?: boolean;
 }
 declare const TextArea: React.ForwardRefExoticComponent<TextAreaProps & React.RefAttributes<HTMLTextAreaElement>>;
