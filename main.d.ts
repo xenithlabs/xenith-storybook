@@ -63,5 +63,4 @@ export * from './components/ColorPicker';
 export * from './components/Map';
 export * from './tailwindTheme';
 export * from './components/SelectPopover';
-export * from './utils/date';
 //# sourceMappingURL=main.d.ts.map
