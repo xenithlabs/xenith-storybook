@@ -1,21 +1,24 @@
 import { ReactNode } from '../../../node_modules/react';
-import { OptionType } from '@/main';
 
+export interface SelectPopoverOptionType<T = unknown> {
+    label: string;
+    value: T;
+}
 interface SelectPopoverProps {
-    value?: OptionType;
-    onChange?: (value: OptionType) => void;
+    value?: SelectPopoverOptionType;
+    onChange?: (value: SelectPopoverOptionType<any>) => void;
     placeholder?: string;
     children: ReactNode;
 }
 interface SelectPopoverOptionProps {
     label: string;
-    value: OptionType;
+    value: SelectPopoverOptionType;
 }
 interface SelectPopoverContextProps {
     open: boolean;
     setOpen: (open: boolean) => void;
-    selectedValue: OptionType | undefined;
-    onSelect: (value: OptionType) => void;
+    selectedValue: SelectPopoverOptionType | undefined;
+    onSelect: (value: SelectPopoverOptionType) => void;
     placeholder: string | undefined;
     buttonRef: React.RefObject<HTMLButtonElement>;
     buttonWidth: number;
