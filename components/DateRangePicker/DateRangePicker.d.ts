@@ -12,7 +12,7 @@ type DateRangePickerProps = Omit<PropsRange | PropsRangeRequired, "selected" | "
     fromDate?: Date;
     rangeTemplates?: typeof RANGE_TEMPLATES;
     toDate?: Date;
-    timePickerProps?: React.ComponentPropsWithoutRef<typeof DateTimePicker>;
+    timePickerProps?: Partial<React.ComponentPropsWithoutRef<typeof DateTimePicker>>;
     error?: boolean;
     dateFormat?: string | [string, string];
 };
