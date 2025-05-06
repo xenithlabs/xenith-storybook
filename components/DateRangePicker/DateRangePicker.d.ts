@@ -13,9 +13,11 @@ type DateRangePickerProps = Omit<PropsRange | PropsRangeRequired, "selected" | "
     rangeTemplates?: typeof RANGE_TEMPLATES;
     toDate?: Date;
     timePickerProps?: Partial<React.ComponentPropsWithoutRef<typeof DateTimePicker>>;
+    fromTimePickerProps?: Partial<React.ComponentPropsWithoutRef<typeof DateTimePicker>>;
+    toTimePickerProps?: Partial<React.ComponentPropsWithoutRef<typeof DateTimePicker>>;
     error?: boolean;
     dateFormat?: string | [string, string];
 };
-export declare const DateRangePicker: ({ value, onChange, required, fromDate, toDate, rangeTemplates: rangeTemplatesProps, placeholder, timePickerProps, error, dateFormat, showTemplateInValue, }: DateRangePickerProps) => import("react/jsx-runtime").JSX.Element;
+export declare const DateRangePicker: ({ value, onChange, required, fromDate, toDate, rangeTemplates: rangeTemplatesProps, placeholder, timePickerProps, fromTimePickerProps, toTimePickerProps, error, dateFormat, showTemplateInValue, }: DateRangePickerProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=DateRangePicker.d.ts.map
