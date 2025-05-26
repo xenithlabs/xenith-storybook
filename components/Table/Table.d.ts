@@ -21,7 +21,7 @@ interface TableHeadWithoutSortProps extends TableHeadProps {
     columnName?: never;
     sortBy?: never;
     sortOrder?: never;
-    handleSortChange?: never;
+    onSortChange?: never;
 }
 interface TableHeadWithSortProps extends TableHeadProps, TableHeadSortProps {
 }
