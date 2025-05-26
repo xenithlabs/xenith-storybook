@@ -64,4 +64,5 @@ export * from './components/Map';
 export * from './tailwindTheme';
 export * from './components/SelectPopover';
 export * from './components/Charts';
+export * from './utils/sort';
 //# sourceMappingURL=main.d.ts.map
