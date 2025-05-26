@@ -1,4 +1,5 @@
 import { ButtonProps } from '../Button/interfaces';
+import { TableHeadSortProps } from '@/utils/sort';
 import * as React from "react";
 interface StickyProps {
     sticky?: boolean;
@@ -16,7 +17,15 @@ interface TableHeadProps extends StickyProps {
     buttonProps?: ButtonProps;
     align?: "left" | "center" | "right";
 }
-declare const TableHead: React.ForwardRefExoticComponent<React.ThHTMLAttributes<HTMLTableCellElement> & TableHeadProps & React.RefAttributes<HTMLTableCellElement>>;
+interface TableHeadWithoutSortProps extends TableHeadProps {
+    columnName?: never;
+    sortBy?: never;
+    sortOrder?: never;
+    handleSortChange?: never;
+}
+interface TableHeadWithSortProps extends TableHeadProps, TableHeadSortProps {
+}
+declare const TableHead: React.ForwardRefExoticComponent<(React.ThHTMLAttributes<HTMLTableCellElement> & (TableHeadWithoutSortProps | TableHeadWithSortProps)) & React.RefAttributes<HTMLTableCellElement>>;
 interface TableCellProps extends React.TdHTMLAttributes<HTMLTableCellElement>, StickyProps {
     action?: React.ReactNode;
     align?: "left" | "center" | "right";
