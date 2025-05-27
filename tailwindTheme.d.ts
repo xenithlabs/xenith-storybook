@@ -58,6 +58,7 @@ export declare const theme: {
             "text-weak": string;
             "text-inverse": string;
             "text-weaker": string;
+            "text-tablehead": string;
             "text-accent": string;
             "text-default": string;
             "text-success": string;
