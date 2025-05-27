@@ -1,1 +1,1 @@
-{"version":3,"file":"SidebarButton.d.ts","sourceRoot":"","sources":["../../../lib/components/Sidebar/SidebarButton.tsx"],"names":[],"mappings":"AAYA,UAAU,kBAAkB;IAC1B,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB;AAED,eAAO,MAAM,aAAa,kBAAmB,kBAAkB,4CA8B9D,CAAC"}
+{"version":3,"file":"SidebarButton.d.ts","sourceRoot":"","sources":["../../../lib/components/Sidebar/SidebarButton.tsx"],"names":[],"mappings":"AAkBA,UAAU,kBAAkB;IAC1B,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB;AAED,eAAO,MAAM,aAAa,kBAAmB,kBAAkB,4CAwC9D,CAAC"}
