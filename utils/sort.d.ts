@@ -7,6 +7,5 @@ export interface TableHeadSortProps {
 export declare const getSortButtonProps: ({ columnName, sortBy, sortOrder, onSortChange, }: TableHeadSortProps) => {
     onClick: () => void;
     icon: import("react/jsx-runtime").JSX.Element;
-    className: string | undefined;
 };
 //# sourceMappingURL=sort.d.ts.map
