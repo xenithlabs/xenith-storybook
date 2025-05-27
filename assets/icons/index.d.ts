@@ -99,4 +99,5 @@ export { default as CloseFilledCircleIcon } from './close-filled-circle.svg';
 export { default as GearIcon } from './gear.svg';
 export { default as StatusIcon } from './status.svg';
 export { default as SwitchIcon } from './switch.svg';
+export { default as SidebarButtonIcon } from './sidebar-button.svg';
 //# sourceMappingURL=index.d.ts.map

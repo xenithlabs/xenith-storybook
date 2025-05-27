@@ -2,6 +2,9 @@ import { default as React, ReactNode, HTMLAttributes } from '../../../node_modul
 
 interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
     logo?: ReactNode;
+    defaultCollapsed?: boolean;
+    disableCollapsible?: boolean;
+    onCollapsedChange?: (collapsed: boolean) => void;
 }
 declare const Sidebar: React.ForwardRefExoticComponent<SidebarProps & React.RefAttributes<HTMLDivElement>>;
 export { Sidebar };
