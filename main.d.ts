@@ -65,4 +65,5 @@ export * from './tailwindTheme';
 export * from './components/SelectPopover';
 export * from './components/Charts';
 export * from './utils/sort';
+export * from './components/Drawer';
 //# sourceMappingURL=main.d.ts.map
