@@ -100,4 +100,5 @@ export { default as GearIcon } from './gear.svg';
 export { default as StatusIcon } from './status.svg';
 export { default as SwitchIcon } from './switch.svg';
 export { default as SidebarButtonIcon } from './sidebar-button.svg';
+export { default as MaximizeIcon } from './maximize.svg';
 //# sourceMappingURL=index.d.ts.map
