@@ -2,7 +2,7 @@ import { default as React, ReactNode, HTMLAttributes } from '../../../node_modul
 
 interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
     logo?: ReactNode;
-    defaultCollapsed?: boolean;
+    collapsed?: boolean;
     disableCollapsible?: boolean;
     onCollapsedChange?: (collapsed: boolean) => void;
     shortcut?: string;
