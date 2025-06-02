@@ -10,5 +10,6 @@ interface BreadcumbProps extends VariantProps<typeof breadcumbStyles> {
 }
 declare const Breadcumb: ({ children, className, theme }: BreadcumbProps) => import("react/jsx-runtime").JSX.Element;
 declare const BreadcumbItem: import('../../../node_modules/react').ForwardRefExoticComponent<Omit<import('@/main').ButtonProps & import('../../../node_modules/react').RefAttributes<HTMLButtonElement>, "ref"> & import('../../../node_modules/react').RefAttributes<HTMLButtonElement>>;
-export { Breadcumb, BreadcumbItem };
+declare const BreadcumbBack: import('../../../node_modules/react').ForwardRefExoticComponent<Omit<import('@/main').ButtonProps & import('../../../node_modules/react').RefAttributes<HTMLButtonElement>, "ref"> & import('../../../node_modules/react').RefAttributes<HTMLButtonElement>>;
+export { Breadcumb, BreadcumbItem, BreadcumbBack };
 //# sourceMappingURL=Breadcumb.d.ts.map
