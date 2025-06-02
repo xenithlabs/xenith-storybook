@@ -5,6 +5,7 @@ interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
     defaultCollapsed?: boolean;
     disableCollapsible?: boolean;
     onCollapsedChange?: (collapsed: boolean) => void;
+    shortcut?: string;
 }
 declare const Sidebar: React.ForwardRefExoticComponent<SidebarProps & React.RefAttributes<HTMLDivElement>>;
 export { Sidebar };
