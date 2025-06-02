@@ -3,16 +3,14 @@ import { IChartBarData } from '@/components/Charts/interfaces';
 export declare const defaultChartsData: {
     name: string;
     uv: number;
-    currency: string;
 }[];
 export declare const timeChartsData: {
     name: string;
-    uv: number;
+    uv: string;
 }[];
 export declare const loadingChartsData: {
     name: string;
     uv: number;
-    currency: string;
 }[];
 export declare const loadingXTicks: string[];
 export declare const loadingYTicks: number[];

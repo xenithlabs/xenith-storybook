@@ -24,16 +24,12 @@ export interface ICustomTickProps {
     };
 }
 export interface ICustomPayload {
-    payload: {
-        currency?: string;
-    };
     value: ValueType;
     name: NameType;
 }
 export type IChartDataItem = {
     name: string;
-    uv: number;
-    currency?: string;
+    uv: number | string;
 };
 export type ChartsType = "volume" | "time";
 export interface IChartsProps {
@@ -43,6 +39,8 @@ export interface IChartsProps {
     isLoading: boolean;
     data: IChartDataItem[];
     type: ChartsType;
+    range?: [number, number];
+    currency?: string;
     dataKeyX?: keyof IChartDataItem;
     dataKeysY?: (keyof IChartDataItem)[];
     className?: string;
@@ -52,5 +50,6 @@ export interface IChartsProps {
 }
 export interface ICustomChartTooltip extends TooltipProps<ValueType, NameType> {
     type: ChartsType;
+    currency?: string;
 }
 //# sourceMappingURL=interfaces.d.ts.map
