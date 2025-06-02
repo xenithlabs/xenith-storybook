@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-DR9Q75dM.js";import{c as s}from"./cn-8RyR4BqC.js";const d=({className:r,...o})=>e.jsx("div",{...o,className:s("shadow-container bg-bg-weaker p-6 rounded-md border-border-default border",r)});d.__docgenInfo={description:"",methods:[],displayName:"Card",composes:["HTMLAttributes"]};export{d as C};
