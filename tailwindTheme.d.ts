@@ -8,6 +8,7 @@ export declare const theme: {
             sidebar: string;
             navbar: string;
             container: string;
+            "sidebar-button": string;
             input: string;
             dropdown: string;
             modal: string;
