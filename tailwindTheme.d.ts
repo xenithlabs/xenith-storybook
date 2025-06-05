@@ -65,6 +65,9 @@ export declare const theme: {
             "text-success": string;
             "text-warning": string;
             "text-critical": string;
+            "bg-sidebar-active": string;
+            "text-sidebar-active": string;
+            "text-accent-weak": string;
         };
         keyframes: {
             "accordion-down": {

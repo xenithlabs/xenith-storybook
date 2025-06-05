@@ -66,4 +66,5 @@ export * from './components/SelectPopover';
 export * from './components/Charts';
 export * from './utils/sort';
 export * from './components/Drawer';
+export * from './components/Carousel';
 //# sourceMappingURL=main.d.ts.map
