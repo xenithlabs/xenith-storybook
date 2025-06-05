@@ -1,4 +1,4 @@
-export { Sidebar } from './Sidebar';
+export * from './Sidebar';
 export { SidebarItem } from './SidebarItem';
 export { SidebarSubItem } from './SidebarSubItem';
 export { SidebarGroupTitle } from './SidebarGroupTitle';
