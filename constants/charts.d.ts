@@ -4,9 +4,13 @@ export declare const defaultChartsData: {
     name: string;
     uv: number;
 }[];
-export declare const timeChartsData: {
+export declare const testData: {
     name: string;
     uv: string;
+}[];
+export declare const timeChartsData: {
+    name: string;
+    uv: number;
 }[];
 export declare const loadingChartsData: {
     name: string;

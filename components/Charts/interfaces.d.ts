@@ -39,14 +39,19 @@ export interface IChartsProps {
     isLoading: boolean;
     data: IChartDataItem[];
     type: ChartsType;
-    range?: [number, number];
     currency?: string;
     dataKeyX?: keyof IChartDataItem;
     dataKeysY?: (keyof IChartDataItem)[];
     className?: string;
-    enableDomain?: boolean;
     formatYText?: (value: number) => string;
     tooltipContentClassName?: string;
+    yAxisConfig?: {
+        label?: string;
+        dataKey?: string;
+        unit?: string;
+        format?: "millions" | "thousands" | "minutes" | "default";
+        range?: [string, string];
+    };
 }
 export interface ICustomChartTooltip extends TooltipProps<ValueType, NameType> {
     type: ChartsType;
