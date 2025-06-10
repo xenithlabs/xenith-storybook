@@ -1,3 +1,4 @@
+import { SVGProps } from '../../../node_modules/react';
 import { TooltipProps } from 'recharts';
 import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent';
 
@@ -15,7 +16,7 @@ export interface IStatusBarProps {
     tooltipText: string;
     tooltipContentClassName?: string;
 }
-export interface ICustomTickProps {
+export interface ICustomTickProps extends SVGProps<SVGTextElement> {
     x: number;
     y: number;
     payload: {
