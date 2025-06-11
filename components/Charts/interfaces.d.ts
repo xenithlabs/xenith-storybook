@@ -33,6 +33,14 @@ export type IChartDataItem = {
     uv: number | string;
 };
 export type ChartsType = "volume" | "time";
+export type IYAxisConfig = {
+    label?: string;
+    dataKey?: string;
+    unit?: string;
+    format?: string;
+    range?: [string, string];
+    multiplier?: number | string;
+};
 export interface IChartsProps {
     label: string;
     tooltipText: string;
@@ -46,13 +54,7 @@ export interface IChartsProps {
     className?: string;
     formatYText?: (value: number) => string;
     tooltipContentClassName?: string;
-    yAxisConfig?: {
-        label?: string;
-        dataKey?: string;
-        unit?: string;
-        format?: "millions" | "thousands" | "billions" | "minutes" | "hours" | "days" | "unknown";
-        range?: [string, string];
-    };
+    yAxisConfig?: IYAxisConfig;
 }
 export interface ICustomChartTooltip extends TooltipProps<ValueType, NameType> {
     type: ChartsType;
