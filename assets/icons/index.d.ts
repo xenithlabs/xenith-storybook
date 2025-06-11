@@ -102,4 +102,5 @@ export { default as SwitchIcon } from './switch.svg';
 export { default as SidebarButtonIcon } from './sidebar-button.svg';
 export { default as MaximizeIcon } from './maximize.svg';
 export { default as WebDesignIcon } from './webdesignicon.svg';
+export { default as SettingsIcon } from './settings.svg';
 //# sourceMappingURL=index.d.ts.map
