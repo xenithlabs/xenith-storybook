@@ -19,7 +19,7 @@ declare const SidebarFooter: ({ children, className }: SidebarFooterProps) => im
 interface SecondarySidebarProps extends PropsWithChildren {
     className?: string;
 }
-declare const SecondarySidebar: ({ children, className }: SecondarySidebarProps) => import("react/jsx-runtime").JSX.Element;
+declare const SecondarySidebar: ({ children, className }: SecondarySidebarProps) => import("react/jsx-runtime").JSX.Element | null;
 interface SidebarIndexTriggerProps extends PropsWithChildren {
     className?: string;
     index: number;
