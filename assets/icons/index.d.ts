@@ -3,7 +3,7 @@ export { default as CogIcon } from './cog.svg';
 export { default as DollarIcon } from './dollar.svg';
 export { default as BarIcon } from './bar.svg';
 export { default as LandmarkIcon } from './landmark.svg';
-export { default as PayinIcon } from './payin.svg';
+export { default as PayinIcon } from './payins.svg';
 export { default as PayoutIcon } from './payout.svg';
 export { default as UserIcon } from './user.svg';
 export { default as UsersIcon } from './users.svg';
@@ -103,4 +103,5 @@ export { default as SidebarButtonIcon } from './sidebar-button.svg';
 export { default as MaximizeIcon } from './maximize.svg';
 export { default as WebDesignIcon } from './webdesignicon.svg';
 export { default as SettingsIcon } from './settings.svg';
+export { default as DollarSign } from './dollar-sign.svg';
 //# sourceMappingURL=index.d.ts.map
