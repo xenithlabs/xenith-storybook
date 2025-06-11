@@ -2,7 +2,7 @@ import { SVGProps } from '../../../node_modules/react';
 import { TooltipProps } from 'recharts';
 import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent';
 
-export type StatusType = "success" | "pending" | "failed" | "expired";
+export type StatusType = "success" | "pending" | "failed" | "expired" | "cancelled" | "pending approval";
 export interface IChartBarData {
     status: string;
     percentage: number;
