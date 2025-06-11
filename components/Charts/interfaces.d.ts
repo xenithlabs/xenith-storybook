@@ -50,7 +50,7 @@ export interface IChartsProps {
         label?: string;
         dataKey?: string;
         unit?: string;
-        format?: "millions" | "thousands" | "minutes" | "default";
+        format?: "millions" | "thousands" | "billions" | "minutes" | "hours" | "days" | "unknown";
         range?: [string, string];
     };
 }
