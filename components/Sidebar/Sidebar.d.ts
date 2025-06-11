@@ -3,6 +3,8 @@ import { default as React, ReactNode, HTMLAttributes, PropsWithChildren } from '
 interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
     collapsed?: boolean;
     footer?: ReactNode;
+    index?: number;
+    setIndex?: (newIndex: number) => void;
     disableCollapsible?: boolean;
     onCollapsedChange?: (collapsed: boolean) => void;
     shortcut?: string;
