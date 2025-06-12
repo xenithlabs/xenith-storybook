@@ -15,6 +15,7 @@ export interface IStatusBarProps {
     isLoading: boolean;
     tooltipText: string;
     tooltipContentClassName?: string;
+    containerClassName?: string;
 }
 export interface ICustomTickProps extends SVGProps<SVGTextElement> {
     x: number;
@@ -54,6 +55,7 @@ export interface IChartsProps {
     className?: string;
     formatYText?: (value: number) => string;
     tooltipContentClassName?: string;
+    containerClassName?: string;
     yAxisConfig?: IYAxisConfig;
 }
 export interface ICustomChartTooltip extends TooltipProps<ValueType, NameType> {
