@@ -6,6 +6,7 @@ export type DateRangeType = DateRange;
 type DateRangePickerProps = Omit<PropsRange | PropsRangeRequired, "selected" | "onSelect" | "mode"> & {
     value?: DateRange | undefined;
     showTemplateInValue?: boolean;
+    dividerIndex?: number;
     placeholder?: string;
     onChange?: (value: DateRange | undefined) => void;
     required?: boolean;
@@ -19,6 +20,6 @@ type DateRangePickerProps = Omit<PropsRange | PropsRangeRequired, "selected" | "
     dateFormat?: string | [string, string];
     customLabel?: string;
 };
-export declare const DateRangePicker: ({ value, onChange, required, fromDate, toDate, rangeTemplates: rangeTemplatesProps, placeholder, timePickerProps, fromTimePickerProps, toTimePickerProps, error, dateFormat, showTemplateInValue, customLabel, }: DateRangePickerProps) => import("react/jsx-runtime").JSX.Element;
+export declare const DateRangePicker: ({ value, onChange, required, fromDate, toDate, rangeTemplates: rangeTemplatesProps, placeholder, timePickerProps, fromTimePickerProps, toTimePickerProps, error, dateFormat, dividerIndex: dividerIndexProps, showTemplateInValue, customLabel, }: DateRangePickerProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=DateRangePicker.d.ts.map
