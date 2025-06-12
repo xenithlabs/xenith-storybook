@@ -18,4 +18,6 @@ export { default as VNFlag } from './vn.svg';
 export { default as VNCircleFlag } from './vn-circle.svg';
 export { default as ENFlag } from './en.svg';
 export { default as ENCircleFlag } from './en-circle.svg';
+export { default as EUCircleFlag } from './eu-circle.svg';
+export { default as USCircleFlag } from './us-circle.svg';
 //# sourceMappingURL=index.d.ts.map
