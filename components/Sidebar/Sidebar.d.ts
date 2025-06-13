@@ -5,8 +5,8 @@ interface SidebarProps extends HTMLAttributes<HTMLDivElement> {
     footer?: ReactNode;
     disableCollapsible?: boolean;
     onCollapsedChange?: (collapsed: boolean) => void;
-    shortcut?: string;
     contentClassName?: string;
+    shortcut?: string;
 }
 declare const Sidebar: React.ForwardRefExoticComponent<SidebarProps & React.RefAttributes<HTMLDivElement>>;
 interface PrimarySidebarProps extends PropsWithChildren {
