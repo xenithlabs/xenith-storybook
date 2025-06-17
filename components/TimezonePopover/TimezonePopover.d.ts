@@ -5,6 +5,7 @@ interface TimezonePopoverProps extends React.ComponentPropsWithoutRef<typeof Dro
     onChange?: (value: string) => void;
     contentProps?: React.ComponentProps<typeof DropdownMenuContent>;
     className?: string;
+    placeholder?: string;
 }
 declare const TimezonePopover: import('../../../node_modules/react').ForwardRefExoticComponent<TimezonePopoverProps & import('../../../node_modules/react').RefAttributes<never>>;
 export { TimezonePopover };
