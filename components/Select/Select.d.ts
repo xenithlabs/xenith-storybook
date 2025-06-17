@@ -33,5 +33,10 @@ interface LanguageSelectProps extends SelectProps {
     onLocaleChange: (locale: string) => void;
 }
 export declare const LanguageSelect: ({ locales, initialLocale, onLocaleChange, ...selectProps }: LanguageSelectProps) => import("react/jsx-runtime").JSX.Element;
-export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, };
+interface TimezoneSelectProps extends SelectProps {
+    withIcon?: boolean;
+    dropdownIcon?: React.ReactNode;
+}
+declare const TimezoneSelect: React.ForwardRefExoticComponent<TimezoneSelectProps & React.RefAttributes<never>>;
+export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, TimezoneSelect, };
 //# sourceMappingURL=Select.d.ts.map

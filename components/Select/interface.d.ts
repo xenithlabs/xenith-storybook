@@ -44,4 +44,10 @@ export type CurrencyOptionType = {
     number: string;
     country: string;
 };
+export type TimezoneOptionType = {
+    zone: string;
+    utc: string;
+    name: string;
+    isBrowserTimezone?: boolean;
+};
 //# sourceMappingURL=interface.d.ts.map

@@ -1,0 +1,1 @@
+import{t as i}from"./stringCase-DaZl3p-i.js";const e=t=>Array.isArray(t)?t.length===0?"-":t.join(", "):t||"-",o=t=>{const n=t.split("@")[0];return i(n.split(".").join(" ").split("+")[0])},l=t=>t.split(" ").map(n=>n[0]).filter((n,s)=>s<2).join("");export{e as a,o as n,l as s};
