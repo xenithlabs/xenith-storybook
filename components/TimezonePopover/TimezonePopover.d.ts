@@ -1,6 +1,6 @@
 import { DropdownMenu, DropdownMenuContent } from '@/main';
 
-interface TimezonePopoverProps extends React.ComponentPropsWithoutRef<typeof DropdownMenu> {
+export interface TimezonePopoverProps extends React.ComponentPropsWithoutRef<typeof DropdownMenu> {
     value?: string;
     onChange?: (value: string) => void;
     contentProps?: React.ComponentProps<typeof DropdownMenuContent>;
