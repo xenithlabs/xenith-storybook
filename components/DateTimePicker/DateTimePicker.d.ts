@@ -2,6 +2,7 @@ import { DateArg } from 'date-fns';
 import { PopoverContent } from '../Popover';
 import * as React from "react";
 interface DateTimePickerProps extends Omit<React.ComponentPropsWithoutRef<"input">, "onChange"> {
+    timezone?: string;
     date: Date | undefined;
     onChange: (date?: Date) => void;
     dateTransformer?: (date?: Date) => Date | undefined;
@@ -18,6 +19,6 @@ interface DateTimePickerProps extends Omit<React.ComponentPropsWithoutRef<"input
     popoverProps?: React.ComponentProps<typeof PopoverContent>;
     withoutSaveButton?: boolean;
 }
-export declare const DateTimePicker: ({ date: dateProps, fromDate, toDate, onChange, error, timeError, onDateChange, dateTransformer, timeMessage, withoutSaveButton, popoverProps, formatFn, ...inputProps }: DateTimePickerProps) => import("react/jsx-runtime").JSX.Element;
+export declare const DateTimePicker: ({ date: dateProps, fromDate, toDate, onChange, error, timeError, onDateChange, dateTransformer, timeMessage, withoutSaveButton, popoverProps, formatFn, timezone, ...inputProps }: DateTimePickerProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=DateTimePicker.d.ts.map
