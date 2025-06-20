@@ -5,7 +5,7 @@ interface DatePickerProps extends Omit<React.ComponentPropsWithoutRef<"input">, 
     fromDate?: Date;
     toDate?: Date;
     error?: boolean;
-    timezone?: "UTC";
+    timezone?: string;
 }
 export declare const DatePicker: ({ date: dateProps, fromDate, toDate, onChange, error, timezone, ...inputProps }: DatePickerProps) => import("react/jsx-runtime").JSX.Element;
 export {};
