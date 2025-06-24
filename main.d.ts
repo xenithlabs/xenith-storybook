@@ -68,5 +68,6 @@ export * from './utils/sort';
 export * from './components/Drawer';
 export * from './components/Carousel';
 export * from './components/TimezoneDropdown';
+export * from './components/TimePicker';
 export * from './utils/timezone';
 //# sourceMappingURL=main.d.ts.map
