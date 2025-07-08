@@ -104,4 +104,5 @@ export { default as MaximizeIcon } from './maximize.svg';
 export { default as WebDesignIcon } from './webdesignicon.svg';
 export { default as SettingsIcon } from './settings.svg';
 export { default as DollarSign } from './dollar-sign.svg';
+export { default as UploadIcon } from './upload.svg';
 //# sourceMappingURL=index.d.ts.map
