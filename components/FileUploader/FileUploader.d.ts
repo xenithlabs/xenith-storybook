@@ -11,9 +11,15 @@ interface FileUploaderProps extends React.HTMLAttributes<HTMLDivElement>, Varian
 declare const FileUploader: React.ForwardRefExoticComponent<FileUploaderProps & React.RefAttributes<HTMLDivElement>>;
 interface FileUploaderInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
     error?: boolean;
-    subTitle?: string;
+    subTitle?: string | React.ReactNode;
+    titleText?: string | React.ReactNode;
+    titleClassName?: string;
     onFilesAdded: (files: File[]) => void;
 }
+/**
+ * @typedef {FileUploaderInputProps} FileUploaderInputProps
+ * @property {string} titleText - The title text for the FileUploaderInput component. If specified, it will override the title text before "or browse".
+ */
 declare const FileUploaderInput: React.ForwardRefExoticComponent<FileUploaderInputProps & React.RefAttributes<HTMLInputElement>>;
 declare const AttachmentList: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const AttachmentItem: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
