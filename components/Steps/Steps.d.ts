@@ -1,6 +1,6 @@
 interface StepsProps<StepType extends string, ActiveType extends StepType | number> {
     active: ActiveType;
-    steps: StepType[];
+    steps: StepType[] | readonly StepType[];
     onStepChange?: (step: ActiveType) => void;
     getStepLabel?: (step: StepType) => string;
     horizontal?: boolean;
