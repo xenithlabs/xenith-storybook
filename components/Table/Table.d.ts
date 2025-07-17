@@ -17,6 +17,7 @@ declare const TableRow: React.ForwardRefExoticComponent<React.HTMLAttributes<HTM
 interface TableHeadProps extends StickyProps {
     buttonProps?: ButtonProps;
     align?: "left" | "center" | "right";
+    actions?: React.ReactNode;
 }
 interface TableHeadWithoutSortProps extends TableHeadProps {
     columnName?: never;
