@@ -42,6 +42,13 @@ interface TimelineAttachmentProps extends React.HTMLAttributes<HTMLDivElement> {
     className?: string;
 }
 export declare const TimelineAttachment: React.FC<TimelineAttachmentProps>;
+interface TimelineFileAttachmentProps {
+    filename: string;
+    icon?: React.ReactNode;
+    url?: string;
+    actions?: React.ReactNode;
+}
+export declare const TimelineFileAttachment: React.FC<TimelineFileAttachmentProps>;
 declare const TimelineSkeleton: React.FC;
 export { Timeline, TimelineItem, TimelineHeader, TimelineTitle, TimelineDate, TimelineDescription, TimelineErrorDescription, TimelineErrorDescriptionJSON, TimelineNotesDescription, TimelineSkeleton, };
 //# sourceMappingURL=Timeline.d.ts.map

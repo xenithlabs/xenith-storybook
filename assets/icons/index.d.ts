@@ -105,4 +105,5 @@ export { default as WebDesignIcon } from './webdesignicon.svg';
 export { default as SettingsIcon } from './settings.svg';
 export { default as DollarSign } from './dollar-sign.svg';
 export { default as UploadIcon } from './upload.svg';
+export { default as FileIcon } from './doc_file.svg';
 //# sourceMappingURL=index.d.ts.map
