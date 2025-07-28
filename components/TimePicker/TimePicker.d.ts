@@ -9,7 +9,7 @@ export interface TimePickerProps {
     placeholder?: string;
     rawPlaceholder?: boolean;
     className?: string;
-    maxHours?: number;
+    maxHours?: number | null;
     zeroLimitOnMaxHours?: boolean;
 }
 /**
