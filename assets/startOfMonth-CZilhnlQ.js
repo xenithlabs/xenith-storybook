@@ -1,0 +1,1 @@
+import{t as c,c as s}from"./toDate-SX-ecmdR.js";function u(e,t,r){const a=c(e,r==null?void 0:r.in);return isNaN(t)?s(e,NaN):(t&&a.setDate(a.getDate()+t),a)}function D(e,t){const r=c(e,t==null?void 0:t.in);return r.setDate(1),r.setHours(0,0,0,0),r}export{u as a,D as s};
