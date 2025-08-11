@@ -36,6 +36,7 @@ export declare const LanguageSelect: ({ locales, initialLocale, onLocaleChange, 
 interface TimezoneSelectProps extends SelectProps {
     withIcon?: boolean;
     dropdownIcon?: React.ReactNode;
+    withBrowserTimezoneOption?: boolean;
 }
 declare const TimezoneSelect: React.ForwardRefExoticComponent<TimezoneSelectProps & React.RefAttributes<never>>;
 export { Select, SelectBaseStyles, CountrySelect, CurrenciesSelect, PhoneSelect, TimezoneSelect, };
