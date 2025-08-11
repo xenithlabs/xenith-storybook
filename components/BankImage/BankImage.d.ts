@@ -28,6 +28,7 @@ export declare const BANK_IMAGE: {
     readonly SINARMAS: "sinarmas";
     readonly DUITNOW: "duitnow";
     readonly THAIQR: "thaiqr";
+    readonly UPI: "upi";
 };
 export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly "BCA.VA": "bca";
@@ -49,8 +50,9 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly VIETQR: "vietqr";
     readonly DUITNOW_QR: "duitnow";
     readonly PROMPTPAY: "thaiqr";
+    readonly UPI: "upi";
 };
-export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr")[];
+export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi")[];
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     bank: (typeof bankImages)[number];
 }
