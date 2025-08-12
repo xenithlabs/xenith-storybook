@@ -20,4 +20,6 @@ export { default as ENFlag } from './en.svg';
 export { default as ENCircleFlag } from './en-circle.svg';
 export { default as EUCircleFlag } from './eu-circle.svg';
 export { default as USCircleFlag } from './us-circle.svg';
+export { default as INCircleFlag } from './in-circle.svg';
+export { default as KHCircleFlag } from './kh-circle.svg';
 //# sourceMappingURL=index.d.ts.map
