@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-DR9Q75dM.js";import{c as e}from"./cn-8RyR4BqC.js";const r=({className:s})=>o.jsx("div",{className:e("rounded-full w-2 h-2 bg-bg-critical",s)});r.__docgenInfo={description:"",methods:[],displayName:"Dot",props:{className:{required:!1,tsType:{name:"string"},description:""}}};export{r as D};

@@ -2,6 +2,7 @@ export * from './components/Heading';
 export * from './components/Text';
 export * from './components/AlertDialog';
 export * from './components/Badge';
+export * from './components/BadgeGroup';
 export * from './components/Banner';
 export * from './components/Breadcumb';
 export * from './components/Button';
