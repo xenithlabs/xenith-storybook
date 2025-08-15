@@ -108,4 +108,5 @@ export { default as UploadIcon } from './upload.svg';
 export { default as FileIcon } from './doc_file.svg';
 export { default as AddPaymentIcon } from './add-payment.svg';
 export { default as RouteIcon } from './route.svg';
+export { default as RefundMoneyCircle } from './refund-money-circle.svg';
 //# sourceMappingURL=index.d.ts.map
