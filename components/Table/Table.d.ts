@@ -44,8 +44,8 @@ declare const TruncateMiddle: ({ text, suffixLength }: TruncateMiddleProps) => i
 declare const TableCell: React.ForwardRefExoticComponent<TableCellProps & React.RefAttributes<HTMLTableCellElement>>;
 declare const TableCaption: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableCaptionElement> & React.RefAttributes<HTMLTableCaptionElement>>;
 interface TableEmptyStateProps {
-    title: string;
-    subTitle?: string;
+    title: React.ReactNode;
+    subTitle?: React.ReactNode;
     hasReset?: boolean;
     resetText?: string;
     className?: string;

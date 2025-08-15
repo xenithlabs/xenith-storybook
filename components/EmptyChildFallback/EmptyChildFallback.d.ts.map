@@ -1,0 +1,1 @@
+{"version":3,"file":"EmptyChildFallback.d.ts","sourceRoot":"","sources":["../../../lib/components/EmptyChildFallback/EmptyChildFallback.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAqC,MAAM,OAAO,CAAC;AAErE,UAAU,uBAAuB;IAC/B,QAAQ,EAAE,SAAS,CAAC;IACpB,QAAQ,EAAE,SAAS,CAAC;CACrB;AAED,QAAA,MAAM,kBAAkB,2BAA4B,uBAAuB,4CAmC1E,CAAC;AAEF,OAAO,EAAE,kBAAkB,EAAE,CAAC"}
