@@ -13,6 +13,7 @@ export * from './components/Collapsible';
 export * from './components/DatePicker';
 export * from './components/Dialog';
 export * from './components/DropdownMenu';
+export * from './components/Overlay';
 export * from './components/Filter';
 export * from './components/Icon';
 export * from './components/Input';
