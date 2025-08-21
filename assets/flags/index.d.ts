@@ -22,4 +22,5 @@ export { default as EUCircleFlag } from './eu-circle.svg';
 export { default as USCircleFlag } from './us-circle.svg';
 export { default as INCircleFlag } from './in-circle.svg';
 export { default as KHCircleFlag } from './kh-circle.svg';
+export { default as USDTCircleFlag } from './usdt-circle.svg';
 //# sourceMappingURL=index.d.ts.map
