@@ -29,6 +29,9 @@ export declare const BANK_IMAGE: {
     readonly DUITNOW: "duitnow";
     readonly THAIQR: "thaiqr";
     readonly UPI: "upi";
+    readonly WIGCKHPP: "wigckhpp";
+    readonly ABAAKHPP: "abaakhpp";
+    readonly ACLBKHPP: "aclbkhpp";
 };
 export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly "BCA.VA": "bca";
@@ -51,8 +54,11 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly DUITNOW_QR: "duitnow";
     readonly PROMPTPAY: "thaiqr";
     readonly UPI: "upi";
+    readonly WIGCKHPP: "wigckhpp";
+    readonly ABAAKHPP: "abaakhpp";
+    readonly ACLBKHPP: "aclbkhpp";
 };
-export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi")[];
+export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "vientin" | "sacombank" | "vietcom" | "vietqr" | "acb" | "bidv" | "donga" | "techom" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp")[];
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     bank: (typeof bankImages)[number];
 }
