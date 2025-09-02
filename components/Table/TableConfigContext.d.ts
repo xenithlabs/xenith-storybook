@@ -17,7 +17,8 @@ export declare const useTableConfig: () => TableConfigContextType;
 interface TableConfigProviderProps {
     children: ReactNode;
     initialConfig?: TableConfig;
+    onConfigChange?: (config: TableConfig) => void;
 }
-export declare const TableConfigProvider: ({ children, initialConfig, }: TableConfigProviderProps) => import("react/jsx-runtime").JSX.Element;
+export declare const TableConfigProvider: ({ children, initialConfig, onConfigChange, }: TableConfigProviderProps) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=TableConfigContext.d.ts.map
