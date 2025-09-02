@@ -1,0 +1,1 @@
+{"version":3,"file":"TableConfigItem.d.ts","sourceRoot":"","sources":["../../../lib/components/Table/TableConfigItem.tsx"],"names":[],"mappings":"AAMA,UAAU,oBAAoB;IAC5B,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,OAAO,EAAE,OAAO,CAAC;IACjB,kBAAkB,EAAE,CAAC,OAAO,EAAE,OAAO,KAAK,IAAI,CAAC;IAC/C,QAAQ,CAAC,EAAE,OAAO,CAAC;CACpB;AAED,eAAO,MAAM,eAAe,0DAMzB,oBAAoB,4CAgFtB,CAAC"}

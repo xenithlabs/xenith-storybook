@@ -98,6 +98,8 @@ export { default as WarningFilledIcon } from './warning-filled.svg';
 export { default as CloseFilledCircleIcon } from './close-filled-circle.svg';
 export { default as GearIcon } from './gear.svg';
 export { default as StatusIcon } from './status.svg';
+export { default as DragIcon } from './drag.svg';
+export { default as CustomIcon } from './custom.svg';
 export { default as SwitchIcon } from './switch.svg';
 export { default as SidebarButtonIcon } from './sidebar-button.svg';
 export { default as MaximizeIcon } from './maximize.svg';
