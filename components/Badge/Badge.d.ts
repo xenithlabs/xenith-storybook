@@ -8,6 +8,6 @@ declare const badgeStyles: (props?: ({
 } & import('class-variance-authority/types').ClassProp) | undefined) => string;
 interface BadgeProps extends HTMLAttributes<HTMLDivElement>, VariantProps<typeof badgeStyles> {
 }
-declare const Badge: ({ children, className, variant, theme, size }: BadgeProps) => import("react/jsx-runtime").JSX.Element;
+declare const Badge: ({ children, className, variant, theme, size, style, ...props }: BadgeProps) => import("react/jsx-runtime").JSX.Element;
 export { Badge };
 //# sourceMappingURL=Badge.d.ts.map

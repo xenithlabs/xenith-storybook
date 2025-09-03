@@ -8,9 +8,12 @@ declare const badgeGroupStyles: (props?: ({
 interface BadgeGroupProps extends HTMLAttributes<HTMLDivElement>, VariantProps<typeof badgeGroupStyles> {
     children: React.ReactNode;
     maxVisible?: number;
+    maxBadgeWidth?: number | string;
+    truncateBadges?: boolean;
+    middleTruncate?: boolean;
     overflowBadgeProps?: React.ComponentProps<typeof Badge>;
     onOverflowChange?: (count: number) => void;
 }
-declare const BadgeGroup: ({ children, className, gap, maxVisible, overflowBadgeProps, onOverflowChange, ...props }: BadgeGroupProps) => import("react/jsx-runtime").JSX.Element;
+declare const BadgeGroup: ({ children, className, gap, maxVisible, maxBadgeWidth, truncateBadges, middleTruncate, overflowBadgeProps, onOverflowChange, ...props }: BadgeGroupProps) => import("react/jsx-runtime").JSX.Element;
 export { BadgeGroup };
 //# sourceMappingURL=BadgeGroup.d.ts.map
