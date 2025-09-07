@@ -74,4 +74,5 @@ export * from './components/TimezoneDropdown';
 export * from './components/TimePicker';
 export * from './utils/timezone';
 export * from './components/EmptyChildFallback';
+export * from './components/MultiSearch';
 //# sourceMappingURL=main.d.ts.map
