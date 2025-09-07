@@ -1,5 +1,5 @@
 import { InputProps } from '../Input';
-import { SelectProps } from '@/main';
+import { SelectProps } from '../Select';
 
 export interface MultiSearchInputProps {
     className?: string;
