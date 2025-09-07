@@ -112,4 +112,5 @@ export { default as AddPaymentIcon } from './add-payment.svg';
 export { default as RouteIcon } from './route.svg';
 export { default as RefundMoneyCircleIcon } from './refund-money-circle.svg';
 export { default as MoneyIcon } from './money.svg';
+export { default as SearchAIIcon } from './search-ai.svg';
 //# sourceMappingURL=index.d.ts.map

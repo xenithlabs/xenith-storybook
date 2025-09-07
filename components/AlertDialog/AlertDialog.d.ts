@@ -20,14 +20,14 @@ declare const AlertDialogAction: React.ForwardRefExoticComponent<Omit<AlertDialo
     buttonState?: "active" | "disabled" | null | undefined;
     variant?: "link" | "solid" | "outline" | "nude" | "unstyled" | null | undefined;
     theme?: "primary" | "success" | "destructive" | "neutral" | null | undefined;
-    size?: "md" | "sm" | "xs" | null | undefined;
+    size?: "md" | "sm" | "xs" | "2xs" | null | undefined;
     buttonType?: "button" | "iconButton" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & React.RefAttributes<HTMLButtonElement>>;
 declare const AlertDialogCancel: React.ForwardRefExoticComponent<Omit<AlertDialogPrimitive.AlertDialogCancelProps & React.RefAttributes<HTMLButtonElement>, "ref"> & VariantProps<(props?: ({
     buttonState?: "active" | "disabled" | null | undefined;
     variant?: "link" | "solid" | "outline" | "nude" | "unstyled" | null | undefined;
     theme?: "primary" | "success" | "destructive" | "neutral" | null | undefined;
-    size?: "md" | "sm" | "xs" | null | undefined;
+    size?: "md" | "sm" | "xs" | "2xs" | null | undefined;
     buttonType?: "button" | "iconButton" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string> & React.RefAttributes<HTMLButtonElement>>;
 export { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel, };

@@ -11,9 +11,10 @@ interface BadgeGroupProps extends HTMLAttributes<HTMLDivElement>, VariantProps<t
     maxBadgeWidth?: number | string;
     truncateBadges?: boolean;
     middleTruncate?: boolean;
+    middleTruncateEndLength?: number;
     overflowBadgeProps?: React.ComponentProps<typeof Badge>;
     onOverflowChange?: (count: number) => void;
 }
-declare const BadgeGroup: ({ children, className, gap, maxVisible, maxBadgeWidth, truncateBadges, middleTruncate, overflowBadgeProps, onOverflowChange, ...props }: BadgeGroupProps) => import("react/jsx-runtime").JSX.Element;
+declare const BadgeGroup: ({ children, className, gap, maxVisible, maxBadgeWidth, truncateBadges, middleTruncate, middleTruncateEndLength, overflowBadgeProps, onOverflowChange, ...props }: BadgeGroupProps) => import("react/jsx-runtime").JSX.Element;
 export { BadgeGroup };
 //# sourceMappingURL=BadgeGroup.d.ts.map

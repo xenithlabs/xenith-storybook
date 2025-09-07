@@ -1,4 +1,4 @@
-import { HTMLAttributes, ReactNode } from '../../../node_modules/react';
+import { HTMLAttributes, ReactNode, MouseEvent } from '../../../node_modules/react';
 import { VariantProps } from 'class-variance-authority';
 
 declare const tagStyles: (props?: ({
@@ -6,7 +6,7 @@ declare const tagStyles: (props?: ({
     size?: "md" | "sm" | null | undefined;
 } & import('class-variance-authority/types').ClassProp) | undefined) => string;
 interface TagCloseProps {
-    onClose: () => void;
+    onClose: (e: MouseEvent) => void;
 }
 declare const TagClose: ({ onClose }: TagCloseProps) => import("react/jsx-runtime").JSX.Element;
 interface TagCountProps {

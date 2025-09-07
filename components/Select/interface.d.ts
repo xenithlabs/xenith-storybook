@@ -4,6 +4,7 @@ import { Props as ReactSelectProps } from 'react-select';
 export interface BaseStylesProps {
     size?: "md" | "sm";
     noBorder?: boolean;
+    noBorderHeightAdjusted?: boolean;
     error?: boolean;
     readonly?: boolean;
     optionBorder?: boolean;

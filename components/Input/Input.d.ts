@@ -1,7 +1,7 @@
 import { InputHTMLAttributes, ReactNode } from '../../../node_modules/react';
 import { SelectProps } from '../Select/interface';
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     leftComponent?: ReactNode;
     rightComponent?: ReactNode;
     containerClassName?: string;
