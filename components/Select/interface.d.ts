@@ -10,6 +10,7 @@ export interface BaseStylesProps {
     optionBorder?: boolean;
     isDisabled?: boolean;
     readOnlyWithCheck?: boolean;
+    menuClassName?: string;
 }
 export interface SelectProps extends ReactSelectProps, BaseStylesProps {
     error?: boolean;

@@ -1,4 +1,5 @@
 import { InputProps } from '../Input';
+import { SelectProps } from '@/main';
 
 export interface MultiSearchInputProps {
     className?: string;
@@ -13,6 +14,7 @@ export interface MultiSearchInputProps {
     onColumnChange?: (column: string) => void;
     leftComponent?: React.ReactNode;
     inputProps?: InputProps;
+    selectProps?: SelectProps;
 }
 export declare const MultiSearchInput: import('../../../node_modules/react').ForwardRefExoticComponent<MultiSearchInputProps & import('../../../node_modules/react').RefAttributes<HTMLDivElement>>;
 //# sourceMappingURL=MultiSearchInput.d.ts.map
