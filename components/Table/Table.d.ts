@@ -9,6 +9,7 @@ declare const Table: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTa
     pagination?: React.ReactNode;
     empty?: React.ReactNode;
     containerRef?: React.RefObject<HTMLDivElement> | undefined;
+    containerClassName?: string | undefined;
 } & React.RefAttributes<HTMLTableElement>>;
 declare const TableHeader: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableBody: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
