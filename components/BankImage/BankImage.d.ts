@@ -59,7 +59,7 @@ export declare const BANK_IMAGE: {
     readonly JAZZCASH: "jazzcash";
     readonly JTRUST: "jtrust";
     readonly KUWAIT_FINANCE: "kuwait_finance";
-    readonly LINK_AJA: "link_aja";
+    readonly LINKAJA: "link_aja";
     readonly MNC: "mnc";
     readonly OCBC_BANK: "ocbc_bank";
     readonly OCBC_NISP: "ocbc_nisp";
@@ -73,6 +73,7 @@ export declare const BANK_IMAGE: {
 };
 export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly CENAIDJA: "bca";
+    readonly BBLUIDJA: "bca";
     readonly "BCA.VA": "bca";
     readonly BMRIIDJA: "mandiri";
     readonly "MDR.VA": "mandiri";
@@ -88,18 +89,24 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly IAPTIDJA: "ina";
     readonly "INA.VA": "ina";
     readonly BNIAIDJA: "cimb";
+    readonly CIBBMYKL: "cimb";
     readonly "CIMBN.VA": "cimb";
+    readonly BRINIDJA: "bri";
     readonly "BRI.VA": "bri";
     readonly "BNI.VA": "bni";
     readonly "BSI.VA": "bsi";
     readonly "BTN.VA": "btn";
+    readonly "BSM.VA": "sinarmas";
     readonly "SINARMAS.VA": "sinarmas";
+    readonly BDINIDJA: "danamon";
     readonly "BDMN.VA": "danamon";
     readonly QRIS: "qris";
     readonly EWALLET: "dana";
     readonly VIETQR: "vietqr";
+    readonly VIETQR_P: "vietqr";
     readonly DUITNOW_QR: "duitnow";
     readonly PROMPTPAY: "thaiqr";
+    readonly PROMPTPAY_P: "thaiqr";
     readonly UPI: "upi";
     readonly WIGCKHPP: "wigckhpp";
     readonly ABAAKHPP: "abaakhpp";
@@ -143,11 +150,17 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly SCBLHKHH: "standard_chartered";
     readonly VTCBVNVX: "techcombank";
     readonly TNGDMYNB: "touchngo";
+    readonly BBIJIDJA: "uob";
     readonly UOVBTHBK: "uob";
     readonly UOVBMYKL: "uob";
     readonly UOVBVNVX: "uob";
     readonly BFTVVNVX: "vietcom";
+    readonly VIEEVNV2: "vietcom";
     readonly ICBVVNVX: "vietinbank";
+    readonly ACBSVN21: "acb";
+    readonly BIDVVNVX: "bidv";
+    readonly SGTTVNVX: "sacombank";
+    readonly LINKAJA: "link_aja";
 };
 export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob")[];
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
