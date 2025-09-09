@@ -167,6 +167,7 @@ export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "m
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     bank: (typeof bankImages)[number];
 }
+export declare const SQUARE_ORIENTED_LOGOS: readonly ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob")[];
 export declare const BankImage: React.FC<BankImageProps>;
 export {};
 //# sourceMappingURL=BankImage.d.ts.map
