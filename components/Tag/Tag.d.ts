@@ -16,6 +16,6 @@ declare const TagCount: ({ count }: TagCountProps) => import("react/jsx-runtime"
 interface TagProps extends HTMLAttributes<HTMLDivElement>, VariantProps<typeof tagStyles> {
     rightComponent?: ReactNode;
 }
-declare const Tag: ({ children, className, variant, rightComponent }: TagProps) => import("react/jsx-runtime").JSX.Element;
+declare const Tag: ({ children, className, variant, rightComponent, ...divProps }: TagProps) => import("react/jsx-runtime").JSX.Element;
 export { Tag, TagClose, TagCount };
 //# sourceMappingURL=Tag.d.ts.map
