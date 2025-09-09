@@ -136,6 +136,7 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly HLBBMYKL: "hong_leong";
     readonly HSBCIDJA: "hsbc";
     readonly HBMBMYKL: "hsbc";
+    readonly IBKOIDJA: "ibk";
     readonly CICTIDJA: "jtrust";
     readonly KFHOMYKL: "kuwait_finance";
     readonly BUMIIDJA: "mnc";
