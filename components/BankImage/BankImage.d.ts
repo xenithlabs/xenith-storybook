@@ -70,6 +70,14 @@ export declare const BANK_IMAGE: {
     readonly TECHCOMBANK: "techcombank";
     readonly TOUCHNGO: "touchngo";
     readonly UOB: "uob";
+    readonly INDEX: "index";
+    readonly BIGPAY: "bigpay";
+    readonly BOOST: "boost";
+    readonly FINPAY: "finpay";
+    readonly GOPAY: "gopay";
+    readonly GXBANK: "gxbank";
+    readonly ISAKU: "isaku";
+    readonly MERCHANTRADE: "merchantrade";
 };
 export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly CENAIDJA: "bca";
@@ -162,12 +170,20 @@ export declare const PAYMENT_CHANNEL_TO_BANK_IMAGE: {
     readonly BIDVVNVX: "bidv";
     readonly SGTTVNVX: "sacombank";
     readonly LINKAJA: "link_aja";
+    readonly BOSTMYNB: "boost";
+    readonly BGPYMYNB: "bigpay";
+    readonly GXSPMYKL: "gxbank";
+    readonly MASBMYNB: "merchantrade";
+    readonly FINPAYXX: "finpay";
+    readonly GOPAY: "gopay";
+    readonly BIDXIDJA: "index";
+    readonly ISAKU: "isaku";
 };
-export declare const bankImages: ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob")[];
+export declare const bankImages: ("index" | "bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob" | "bigpay" | "boost" | "finpay" | "gopay" | "gxbank" | "isaku" | "merchantrade")[];
 interface BankImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     bank: (typeof bankImages)[number];
 }
-export declare const SQUARE_ORIENTED_LOGOS: readonly ("bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob")[];
+export declare const SQUARE_ORIENTED_LOGOS: readonly ("index" | "bni" | "bca" | "artha_graha" | "maybank" | "mandiri" | "permata" | "bri" | "cimb" | "qris" | "ina" | "ovo" | "bss" | "dana" | "sacombank" | "vietcom" | "vietqr" | "vietinbank" | "acb" | "bidv" | "bsi" | "btn" | "danamon" | "sinarmas" | "duitnow" | "thaiqr" | "upi" | "wigckhpp" | "abaakhpp" | "aclbkhpp" | "affin" | "agribank" | "agrobank" | "alipay" | "alliance" | "ambank" | "bumi_arta" | "capital" | "bank_islam" | "mayapada" | "muamalat" | "multiarta_sentosa" | "bnc" | "bank_of_china" | "rakyat" | "sbi" | "bsn" | "ccb" | "citibank" | "ctbc" | "dbs" | "dongabank" | "easypaisa" | "hong_leong" | "hsbc" | "ibk" | "jazzcash" | "jtrust" | "kuwait_finance" | "link_aja" | "mnc" | "ocbc_bank" | "ocbc_nisp" | "public" | "rhb" | "shopeepay" | "standard_chartered" | "techcombank" | "touchngo" | "uob" | "bigpay" | "boost" | "finpay" | "gopay" | "gxbank" | "isaku" | "merchantrade")[];
 export declare const BankImage: React.FC<BankImageProps>;
 export {};
 //# sourceMappingURL=BankImage.d.ts.map
